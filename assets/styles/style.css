@@ -1,6 +1,26 @@
 img {
-  width: 1000px;
-  height: 1500px;
+  z-index: -4;
+  width: 875px;
+  height: 1700px;
+  opacity: 0.5;
+}
+
+main {
+  position: absolute;
+  border-color: black;
+}
+
+.background {
+  width: 875px;
+  position: relative;
+}
+.background .white--path {
+  height: 400px;
+  z-index: 4;
+}
+.background .blue--path {
+  z-index: 2;
+  top: 200px;
 }
 
 /*.st0{opacity:0.38;fill:;}

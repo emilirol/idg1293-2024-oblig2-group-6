@@ -5,21 +5,32 @@ $lightBlue:#00B1DC;
 $white:#FFFFFF;
 
 img{
-    width: 483px;
+    z-index: -4;
+    width: 875px;
     height: 1700px;
+    opacity: 0.5;
 }
 
 main{
-    width: 483px;
-    height: 1700px;
+    position: absolute;
     border-color: black;
 }
 
-.background__white{
+.background{
+    width: 875px;
     position: relative;
-    top:;
-    left:;
+
+    .white--path{
+        height: 400px;
+        z-index: 4;
+    }
+
+    .blue--path{
+        z-index: 2;
+        top: 200px;
 }
+}
+
 
 
     /*.st0{opacity:0.38;fill:;}
