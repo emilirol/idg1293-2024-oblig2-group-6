@@ -5,22 +5,29 @@ img {
   opacity: 0.5;
 }
 
-main {
-  position: absolute;
-  border-color: black;
-}
-
 .background {
   width: 875px;
-  position: relative;
+  position: absolute;
 }
 .background .white--path {
-  height: 400px;
-  z-index: 4;
+  fill: #838080;
+  z-index: 3;
+  top: 0;
 }
 .background .blue--path {
+  fill: #005BA7;
   z-index: 2;
-  top: 200px;
+  top: 0;
+}
+.background .lightblue--path {
+  fill: #00B1DC;
+  z-index: 1;
+  top: 100px;
+  left: 0;
+}
+.background .red--path {
+  fill: #C77161;
+  opacity: 0.38;
 }
 
 /*.st0{opacity:0.38;fill:;}
