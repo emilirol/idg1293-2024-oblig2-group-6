@@ -4,42 +4,39 @@ $blue:#005BA7;
 $lightBlue:#00B1DC;
 $white:#FFFFFF;
 
-body{
-    margin: 0;
-}
-
-main{
-    border: 20px;
-    align-items: center;
-}
 
 .background{
-    position: absolute;
-    //opacity: .15;
+    width: 100%;
+    border: 20px;
+    position: relative;
+    opacity: .15;
+
+    .path{
+        position: absolute;
+    }
 
     .white--path{
+        height: 700px;
         fill:#838080;
-        top: 0;
-        z-index: 3;
+        z-index: 4;
     }
 
     .blue--path{
+        height: 800px;
         fill:$blue;
-        top: 0;
         z-index: 1;
     }
 
     .lightblue--path{
+        height: 800px;
         fill: $lightBlue;
-        top: ;
-        left: 0;
         z-index: 2;
     }
 
     .red--path{
+        height: 750px;
         fill: $salmon;
         opacity: .38;
-        top: ;
         z-index: 3;
     }
 }

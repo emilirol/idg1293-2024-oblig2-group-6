@@ -1,56 +1,30 @@
-img {
-  z-index: -4;
-  width: 875px;
-  height: 1700px;
-  opacity: 0.5;
-}
-
 .background {
-  width: 875px;
+  width: 100%;
+  border: 20px;
+  position: relative;
+  opacity: 0.15;
+}
+.background .path {
   position: absolute;
 }
 .background .white--path {
+  height: 700px;
   fill: #838080;
-  z-index: 3;
-  top: 0;
+  z-index: 4;
 }
 .background .blue--path {
+  height: 800px;
   fill: #005BA7;
-  z-index: 2;
-  top: 0;
+  z-index: 1;
 }
 .background .lightblue--path {
+  height: 800px;
   fill: #00B1DC;
-  z-index: 1;
-  top: 100px;
-  left: 0;
+  z-index: 2;
 }
 .background .red--path {
+  height: 750px;
   fill: #C77161;
   opacity: 0.38;
-}
-
-/*.st0{opacity:0.38;fill:;}
-.st1{fill:#00B1DC;stroke:#000000;stroke-width:4.602;stroke-miterlimit:10;}
-.st2{stroke:#000000;stroke-miterlimit:10;}
-.st3{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-.st4{fill:#A1CF6D;stroke:#000000;stroke-width:4.602;stroke-miterlimit:10;}
-.st5{opacity:0.15;fill:#00B1DC;}
-.st6{fill:#005BA7;}
-.st7{fill:#FFFFFF;}
-.st8{fill:#0FA15C;}
-.st9{fill:#816C5D;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st10{fill:#F5EC43;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st11{stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st12{fill:none;stroke:#FFFFFF;stroke-width:4.6017;stroke-miterlimit:10;}
-.st13{fill:#FCE0CE;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st14{fill:#00B1DC;}
-.st15{fill:#C77161;}
-.st16{fill:#AD9282;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st17{fill:#B6A69E;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st18{fill:#A1CF6D;}
-.st19{fill:#FFFFFF;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st20{clip-path:url(#SVGID_00000125603977668680347740000004148087591815432094_);}
-.st21{fill:#EAEAE9;stroke:#000000;stroke-width:4.206;stroke-miterlimit:10;}
-.st22{fill:#B4B6B7;stroke:#000000;stroke-width:4.6017;stroke-miterlimit:10;}
-.st23{stroke:#000000;stroke-width:4.206;stroke-miterlimit:10;}*//*# sourceMappingURL=style.css.map */
+  z-index: 3;
+}/*# sourceMappingURL=style.css.map */
