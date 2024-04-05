@@ -4,39 +4,42 @@ $blue:#005BA7;
 $lightBlue:#00B1DC;
 $white:#FFFFFF;
 
+body{
+    width:950px;
+    height:2500px;
+}
 
 .background{
-    width: 100%;
     border: 20px;
     position: relative;
-    opacity: .15;
+    //opacity: .15;
 
     .path{
         position: absolute;
     }
 
     .white--path{
-        height: 700px;
         fill:#838080;
+        top: 0;
         z-index: 4;
     }
 
     .blue--path{
-        height: 800px;
         fill:$blue;
+        top: 0;
         z-index: 1;
     }
 
     .lightblue--path{
-        height: 800px;
         fill: $lightBlue;
         z-index: 2;
+        left: 0;
     }
 
     .red--path{
-        height: 750px;
         fill: $salmon;
         opacity: .38;
+        top: 1500px;
         z-index: 3;
     }
 }
