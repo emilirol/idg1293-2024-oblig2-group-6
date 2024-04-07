@@ -24,6 +24,7 @@ main{
     
         .white--path{
             fill:#838080;
+            
         }
     
         .blue--path{
@@ -34,6 +35,7 @@ main{
         .lightblue--path{
             fill: $lightBlue;
             opacity: .15;
+            transform: translateY(500px);
     
         }
     
