@@ -1,11 +1,21 @@
-img {
-  width: 1480px;
-  height: 3508px;
-  z-index: -4;
+@font-face {
+  font-family: CinnamonCoffeCake;
+  src: url(CinnamonCoffeCake-Ea2Pr.tff);
 }
-
 main {
   position: relative;
+  font-family: CinnamonCoffeCake;
+}
+main .postertext__h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  color: #005BA7;
+}
+main .postertext__h1 span {
+  color: rgb(6, 178, 6);
+}
+main .postertext__h1 .postertext__h1--p {
+  color: #FFFFFF;
 }
 main .earth__background--blue {
   fill: #00B1DC;
@@ -24,6 +34,7 @@ main .background .blue--path {
 main .background .lightblue--path {
   fill: #00B1DC;
   opacity: 0.15;
+  transform: translateY(500px);
 }
 main .background .red--path {
   fill: #C77161;

@@ -3,15 +3,30 @@ $salmon: #C77161;
 $blue:#005BA7;
 $lightBlue:#00B1DC;
 $white:#FFFFFF;
+$greenText: rgb(6, 178, 6);
 
-img{
-    width: 1480px;
-    height: 3508px;
-    z-index: -4;
-}
+    @font-face {
+        font-family: CinnamonCoffeCake;
+        src: url(CinnamonCoffeCake-Ea2Pr.tff);
+    }
 
 main{
     position: relative;
+    font-family: CinnamonCoffeCake;
+
+    .postertext__h1{
+        font-family: Helvetica, Arial, sans-serif;
+        position: absolute;
+        color:$blue;
+    
+        span{
+            color: $greenText;
+        }
+
+        .postertext__h1--p{
+            color:$white;
+        }
+    }
 
     .earth__background--blue{
         fill: $lightBlue;
