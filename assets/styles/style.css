@@ -1,33 +1,35 @@
+img {
+  width: 1480px;
+  height: 3508px;
+  z-index: -4;
+}
+
 body {
   width: 950px;
   height: 2500px;
 }
 
-.background {
-  border: 20px;
+main {
+  border-color: black;
   position: relative;
 }
-.background .path {
+main .background {
   position: absolute;
 }
-.background .white--path {
+main .background .white--path {
   fill: #838080;
   top: 0;
-  z-index: 4;
 }
-.background .blue--path {
+main .background .blue--path {
   fill: #005BA7;
   top: 0;
-  z-index: 1;
 }
-.background .lightblue--path {
+main .background .lightblue--path {
   fill: #00B1DC;
-  z-index: 2;
-  left: 0;
+  top: 370px;
 }
-.background .red--path {
+main .background .red--path {
   fill: #C77161;
   opacity: 0.38;
-  top: 1500px;
-  z-index: 3;
+  top: 740px;
 }/*# sourceMappingURL=style.css.map */
