@@ -10,21 +10,20 @@ img{
     z-index: -4;
 }
 
-body{
-    width:950px;
-    height:2500px;
-}
-
 main{
-    border-color: black;
     position: relative;
+
+    .earth__background--blue{
+        fill: $lightBlue;
+        position: absolute;
+    }
 
     .background{
         position: absolute;
+        
     
         .white--path{
             fill:#838080;
-            top: 0;
         }
     
         .blue--path{
@@ -34,13 +33,13 @@ main{
     
         .lightblue--path{
             fill: $lightBlue;
-            top: 370px;
+            opacity: .15;
+    
         }
     
         .red--path{
             fill: $salmon;
             opacity: .38;
-            top: 740px;
         }
     }
 }
