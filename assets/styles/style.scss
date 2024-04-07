@@ -11,8 +11,14 @@ $greenText: rgb(6, 178, 6);
     }
 
 main{
+    width: 954.48px;
+    height: 1722.37px;
     position: relative;
     font-family: CinnamonCoffeCake;
+
+    .postertext{
+        z-index: 3;
+    }
 
     .postertext__h1{
         font-family: Helvetica, Arial, sans-serif;
@@ -44,7 +50,6 @@ main{
     
         .blue--path{
             fill:$blue;
-            top: 0;
         }
     
         .lightblue--path{
