@@ -38,14 +38,19 @@ main .postertext__h1 .postertext__h1--p {
 }
 main .earth__background--blue {
   fill: #00B1DC;
+  stroke: black;
   position: absolute;
   z-index: -3;
+}
+main .earth__background--eye {
+  fill: black;
+  stroke: #FFFFFF;
 }
 main .background {
   position: absolute;
 }
 main .background .white--path {
-  fill: #838080;
+  fill: #dedcdc;
 }
 main .background .blue--path {
   fill: #005BA7;

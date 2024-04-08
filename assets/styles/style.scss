@@ -3,6 +3,7 @@ $salmon: #C77161;
 $blue:#005BA7;
 $lightBlue:#00B1DC;
 $white:#FFFFFF;
+$lightGreyPath:#dedcdc;
 $greenText: rgb(6, 178, 6);
 $black:black;
 
@@ -55,18 +56,22 @@ main{
 
     .earth__background--blue{
         fill: $lightBlue;
+        stroke: $black;
         position: absolute;
         z-index: -3;
+    }
+
+    .earth__background--eye{
+        fill: $black;
+        stroke: $white;
     }
 
 
     .background{
         position: absolute;
-        
-    
+  
         .white--path{
-            fill:#838080;
-            
+            fill: $lightGreyPath;
         }
     
         .blue--path{
