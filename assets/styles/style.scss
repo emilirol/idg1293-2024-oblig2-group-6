@@ -4,6 +4,7 @@ $blue:#005BA7;
 $lightBlue:#00B1DC;
 $white:#FFFFFF;
 $lightGreyPath:#dedcdc;
+$earthGreen:rgb(3, 94, 3);
 $greenText: rgb(6, 178, 6);
 $black:black;
 
@@ -53,7 +54,7 @@ main{
             color:$white;
         }
     }
-
+   
     .earth__background--blue{
         fill: $lightBlue;
         stroke: $black;
