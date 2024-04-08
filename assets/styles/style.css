@@ -1,6 +1,6 @@
 @font-face {
   font-family: CinnamonCoffeCake;
-  src: url(CinnamonCoffeCake-Ea2Pr.tff);
+  src: url(/assets/CinnamonCoffeCake-Ea2Pr.ttf);
 }
 main {
   width: 954.48px;
@@ -9,7 +9,6 @@ main {
   font-family: CinnamonCoffeCake;
 }
 main .postertext {
-  z-index: 5;
   position: absolute;
   z-index: 2;
 }
@@ -36,15 +35,23 @@ main .postertext__h1 span {
 main .postertext__h1 .postertext__h1--p {
   color: #FFFFFF;
 }
-main .earth__background--blue {
+main .earth .earth__background--blue {
   fill: #00B1DC;
   stroke: black;
   position: absolute;
   z-index: -3;
 }
-main .earth__background--eye {
+main .earth .earth__background--eye {
   fill: black;
   stroke: #FFFFFF;
+}
+main .poster__element--moon {
+  fill: #dedcdc;
+  stroke: black;
+  stroke-width: 5px;
+}
+main .poster__element--mooneyes {
+  fill: black;
 }
 main .background {
   position: absolute;

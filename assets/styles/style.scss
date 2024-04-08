@@ -4,13 +4,14 @@ $blue:#005BA7;
 $lightBlue:#00B1DC;
 $white:#FFFFFF;
 $lightGreyPath:#dedcdc;
+$grey: rgba(128, 128, 128, 0.806);
 $earthGreen:rgb(3, 94, 3);
 $greenText: rgb(6, 178, 6);
 $black:black;
 
     @font-face {
         font-family: CinnamonCoffeCake;
-        src: url(CinnamonCoffeCake-Ea2Pr.tff);
+        src: url(/assets/CinnamonCoffeCake-Ea2Pr.ttf);
     }
 
 main{
@@ -20,9 +21,9 @@ main{
     font-family: CinnamonCoffeCake;
 
     .postertext{
-        z-index: 5;
         position: absolute;
         z-index: 2;
+
     }
 
     .postertext__list ul{
@@ -54,19 +55,29 @@ main{
             color:$white;
         }
     }
-   
-    .earth__background--blue{
-        fill: $lightBlue;
+    
+    .earth{
+        .earth__background--blue{
+            fill: $lightBlue;
+            stroke: $black;
+            position: absolute;
+            z-index: -3;
+        }
+    
+        .earth__background--eye{
+            fill: $black;
+            stroke: $white;
+        }
+    }
+
+    .poster__element--moon{
+        fill: $lightGreyPath;
         stroke: $black;
-        position: absolute;
-        z-index: -3;
+        stroke-width: 5px;
     }
-
-    .earth__background--eye{
+    .poster__element--mooneyes{
         fill: $black;
-        stroke: $white;
     }
-
 
     .background{
         position: absolute;
@@ -77,6 +88,7 @@ main{
     
         .blue--path{
             fill:$blue;
+
         }
     
         .lightblue--path{
