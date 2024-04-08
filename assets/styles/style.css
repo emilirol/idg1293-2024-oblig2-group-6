@@ -9,12 +9,26 @@ main {
   font-family: CinnamonCoffeCake;
 }
 main .postertext {
-  z-index: 3;
+  z-index: 5;
+  position: absolute;
+  z-index: 2;
+}
+main .postertext__list ul {
+  position: absolute;
+  background-color: #FFFFFF;
+  z-index: 2;
+}
+main .postertext__footer--link,
+main .postertext__footer--mail {
+  position: absolute;
+  background-color: #005BA7;
+  z-index: 2;
 }
 main .postertext__h1 {
   font-family: Helvetica, Arial, sans-serif;
   position: absolute;
   color: #005BA7;
+  z-index: 2;
 }
 main .postertext__h1 span {
   color: rgb(6, 178, 6);
@@ -25,6 +39,7 @@ main .postertext__h1 .postertext__h1--p {
 main .earth__background--blue {
   fill: #00B1DC;
   position: absolute;
+  z-index: -3;
 }
 main .background {
   position: absolute;
@@ -43,4 +58,5 @@ main .background .lightblue--path {
 main .background .red--path {
   fill: #C77161;
   opacity: 0.38;
+  transform: translateY(1000px);
 }/*# sourceMappingURL=style.css.map */
