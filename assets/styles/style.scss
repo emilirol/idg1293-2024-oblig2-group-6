@@ -23,8 +23,8 @@ body{
 
     main{
         max-width: 100%;
-        width: 1096px;
-        height: 1912px;
+        /*width: 1096px;
+        height: 1912px;*/
         position: relative;
 
     
@@ -34,6 +34,7 @@ body{
         z-index: 2;
 
     }
+
 
     /*.postertext__list ul{
         position: absolute;
@@ -47,19 +48,38 @@ body{
         background-color: $blue;
         z-index: 2;
     }*/
-
+    
     .postertext__h1{
         font-family: Helvetica, Arial, sans-serif;
         position: absolute;
         color:$blue;
-        z-index: 2;
-    
+        z-index: 1;
+        left: 5%;
+        margin-top: -20px;
+
+        h1 {
+            font-weight: 800;
+            font-size: 40px;
+        }
+        
         span{
             color: $greenText;
         }
 
         .postertext__h1--p{
             color:$black;
+            font-family:"Comic Sans MS", "Comic Sans", cursive;
+            font-size: 20px;
+        }
+    }
+
+    .background__blue--path {
+        .postertext {
+            color:$white;
+            font-family:"Comic Sans MS", cursive;
+            font-size: 25px;
+            top: 27%;
+            left: 5%;
         }
     }
     
@@ -99,12 +119,12 @@ body{
     &__white--path::before{
         content:'';
         position: absolute;
-        width: 800px;
+        width: 1200px;
         height: 800px;
         background: $blue;
         border-radius:50%;
         top: 230%;
-        right:-45.5%;
+        right:-66%;
         transform: translate(-50%, -50%);
         }
     &__white--path1{
@@ -146,12 +166,12 @@ body{
     &__lightblue--path::before{
             content: '';
             position: absolute;
-            width: 950px;
+            width: 1200px;
             height: 800px;
             background: $blue;
             border-radius: 100%;
             top: -65%;
-            left: 78%;
+            left: 75.5%;
             transform: translate(-50%, -50%);
         }
     &__lightblue--path1{
