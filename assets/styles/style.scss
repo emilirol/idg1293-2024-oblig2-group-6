@@ -17,13 +17,17 @@ $black:black;
     opacity: .15;
 }*/
 
-main{
-    max-width: 100%;
-    width: 1096px;
-    height: 1912px;
-    position: relative;
+body{
     border-color: black;
     border-style: solid;
+
+    main{
+        max-width: 100%;
+        width: 1096px;
+        height: 1912px;
+        position: relative;
+
+    
 
     /*.postertext{
         position: absolute;
@@ -193,4 +197,5 @@ main{
     }
     } 
 
+}
 }
