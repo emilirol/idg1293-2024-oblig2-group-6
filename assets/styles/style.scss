@@ -29,13 +29,13 @@ body{
 
     
 
-    /*.postertext{
+    .postertext{
         position: absolute;
         z-index: 2;
 
     }
 
-    .postertext__list ul{
+    /*.postertext__list ul{
         position: absolute;
         background-color: $white;
         z-index: 2;
@@ -46,7 +46,7 @@ body{
         position: absolute;
         background-color: $blue;
         z-index: 2;
-    }
+    }*/
 
     .postertext__h1{
         font-family: Helvetica, Arial, sans-serif;
@@ -59,9 +59,9 @@ body{
         }
 
         .postertext__h1--p{
-            color:$white;
+            color:$black;
         }
-    }*/
+    }
     
     #earth{
         .earth__background--blue{

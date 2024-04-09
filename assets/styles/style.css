@@ -13,13 +13,7 @@ body main {
   width: 1096px;
   height: 1912px;
   position: relative;
-  /*.postertext{
-      position: absolute;
-      z-index: 2;
-
-  }
-
-  .postertext__list ul{
+  /*.postertext__list ul{
       position: absolute;
       background-color: $white;
       z-index: 2;
@@ -30,22 +24,23 @@ body main {
       position: absolute;
       background-color: $blue;
       z-index: 2;
-  }
-
-  .postertext__h1{
-      font-family: Helvetica, Arial, sans-serif;
-      position: absolute;
-      color:$blue;
-      z-index: 2;
-
-      span{
-          color: $greenText;
-      }
-
-      .postertext__h1--p{
-          color:$white;
-      }
   }*/
+}
+body main .postertext {
+  position: absolute;
+  z-index: 2;
+}
+body main .postertext__h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  color: #005BA7;
+  z-index: 2;
+}
+body main .postertext__h1 span {
+  color: rgb(6, 178, 6);
+}
+body main .postertext__h1 .postertext__h1--p {
+  color: black;
 }
 body main #earth .earth__background--blue {
   fill: #00B1DC;
