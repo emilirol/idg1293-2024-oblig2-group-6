@@ -2,73 +2,154 @@
   font-family: CinnamonCoffeCake;
   src: url(/assets/CinnamonCoffeCake-Ea2Pr.ttf);
 }
+/*img{
+    width: 1096px;
+    height: 1912px;
+    z-index: -3;
+    opacity: .15;
+}*/
 main {
-  width: 954.48px;
-  height: 1722.37px;
+  width: 1096px;
+  height: 1912px;
   position: relative;
   font-family: CinnamonCoffeCake;
+  /*.postertext{
+      position: absolute;
+      z-index: 2;
+
+  }
+
+  .postertext__list ul{
+      position: absolute;
+      background-color: $white;
+      z-index: 2;
+  }
+
+  .postertext__footer--link,
+  .postertext__footer--mail{
+      position: absolute;
+      background-color: $blue;
+      z-index: 2;
+  }
+
+  .postertext__h1{
+      font-family: Helvetica, Arial, sans-serif;
+      position: absolute;
+      color:$blue;
+      z-index: 2;
+
+      span{
+          color: $greenText;
+      }
+
+      .postertext__h1--p{
+          color:$white;
+      }
+  }
+
+  #earth{
+      .earth__background--blue{
+          fill: $lightBlue;
+          stroke: $black;
+          stroke-width: 5px;
+          position: absolute;
+          z-index: -3;
+      }
+
+      .earth__background--eye{
+          fill: $black;
+          stroke: $white;
+      }
+  }
+
+  .poster__element--moon{
+      fill: $lightGreyPath;
+      stroke: $black;
+      stroke-width: 5px;
+  }
+  .poster__element--mooneyes{
+      fill: $black;
+  }*/
+  /*.blue--path{
+          fill:$blue;
+
+      }
+
+      .lightblue--path{
+          fill: $lightBlue;
+          opacity: .15;
+          transform: translateY(500px);
+
+      }
+
+      .red--path{
+          fill: $salmon;
+          opacity: .38;
+          transform: translateY(1000px);
+      }*/
 }
-main .postertext {
-  position: absolute;
-  z-index: 2;
-}
-main .postertext__list ul {
-  position: absolute;
+main .background__white--path {
+  width: 1096px;
+  height: 200px;
+  position: relative;
   background-color: #FFFFFF;
-  z-index: 2;
+  overflow: hidden;
 }
-main .postertext__footer--link,
-main .postertext__footer--mail {
+main .background__white--path::before {
+  content: "";
   position: absolute;
+  width: 750px;
+  height: 700px;
+  background: #005BA7;
+  border-radius: 50%;
+  top: 200%;
+  right: -43%;
+  transform: translate(-50%, -50%);
+}
+main .background__white--path1 {
+  content: "";
+  position: absolute;
+  width: 755px;
+  height: 800px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  top: -150%;
+  left: 23.5%;
+  transform: translate(-50%, -50%);
+}
+main .background__blue--path {
+  width: 1096px;
+  height: 200px;
+  position: relative;
   background-color: #005BA7;
-  z-index: 2;
+  overflow: hidden;
 }
-main .postertext__h1 {
-  font-family: Helvetica, Arial, sans-serif;
+main .background__blue--path::before {
+  content: "";
   position: absolute;
-  color: #005BA7;
-  z-index: 2;
+  width: 700px;
+  height: 400px;
+  background: #00B1DC;
+  border-radius: 100%;
+  top: 175%;
+  left: 20%;
+  transform: translate(-50%, -50%);
 }
-main .postertext__h1 span {
-  color: rgb(6, 178, 6);
+main .background__lightblue--path {
+  width: 1096px;
+  height: 400px;
+  position: relative;
+  background-color: #00B1DC;
+  overflow: hidden;
 }
-main .postertext__h1 .postertext__h1--p {
-  color: #FFFFFF;
-}
-main .earth .earth__background--blue {
-  fill: #00B1DC;
-  stroke: black;
+main .background__lightblue--path::before {
+  content: "";
   position: absolute;
-  z-index: -3;
-}
-main .earth .earth__background--eye {
-  fill: black;
-  stroke: #FFFFFF;
-}
-main .poster__element--moon {
-  fill: #dedcdc;
-  stroke: black;
-  stroke-width: 5px;
-}
-main .poster__element--mooneyes {
-  fill: black;
-}
-main .background {
-  position: absolute;
-}
-main .background .white--path {
-  fill: #dedcdc;
-}
-main .background .blue--path {
-  fill: #005BA7;
-}
-main .background .lightblue--path {
-  fill: #00B1DC;
-  opacity: 0.15;
-  transform: translateY(500px);
-}
-main .background .red--path {
-  fill: #C77161;
-  opacity: 0.38;
-  transform: translateY(1000px);
+  width: 950px;
+  height: 800px;
+  background: #005BA7;
+  border-radius: 100%;
+  top: -65%;
+  left: 74%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */

@@ -14,13 +14,20 @@ $black:black;
         src: url(/assets/CinnamonCoffeCake-Ea2Pr.ttf);
     }
 
+/*img{
+    width: 1096px;
+    height: 1912px;
+    z-index: -3;
+    opacity: .15;
+}*/
+
 main{
-    width: 954.48px;
-    height: 1722.37px;
+    width: 1096px;
+    height: 1912px;
     position: relative;
     font-family: CinnamonCoffeCake;
 
-    .postertext{
+    /*.postertext{
         position: absolute;
         z-index: 2;
 
@@ -39,8 +46,6 @@ main{
         z-index: 2;
     }
 
-  
-
     .postertext__h1{
         font-family: Helvetica, Arial, sans-serif;
         position: absolute;
@@ -56,10 +61,11 @@ main{
         }
     }
     
-    .earth{
+    #earth{
         .earth__background--blue{
             fill: $lightBlue;
             stroke: $black;
+            stroke-width: 5px;
             position: absolute;
             z-index: -3;
         }
@@ -77,16 +83,77 @@ main{
     }
     .poster__element--mooneyes{
         fill: $black;
-    }
-
-    .background{
-        position: absolute;
-  
-        .white--path{
-            fill: $lightGreyPath;
-        }
+    }*/
     
-        .blue--path{
+    .background__white--path{
+        width: 1096px;
+        height: 200px;
+        position: relative;
+        background-color: $white;
+        overflow: hidden;  
+        }
+    .background__white--path::before{
+        content:'';
+        position: absolute;
+        width: 750px;
+        height: 700px;
+        background: $blue;
+        border-radius:50%;
+        top: 200%;
+        right:-43%;
+        transform: translate(-50%, -50%);
+        }
+        .background__white--path1{
+            content:'';
+            position: absolute;
+            width: 755px;
+            height: 800px;
+            background: $white;
+            border-radius:50%;
+            top:-150%;
+            left: 23.5%;
+            transform: translate(-50%, -50%);
+            }
+    .background__blue--path{
+        width: 1096px;
+        height: 200px;
+        position: relative;
+        background-color: $blue;
+        overflow: hidden;
+        }
+    .background__blue--path::before{
+        content:'';
+        position: absolute;
+        width: 700px;
+        height: 400px;
+        background: $lightBlue;
+        border-radius: 100%;
+        top: 175%;
+        left:20%;
+        transform: translate(-50%, -50%);
+        }
+        .background__lightblue--path{
+        width: 1096px;
+        height: 400px;
+        position: relative;
+        background-color: $lightBlue;
+        overflow: hidden;  
+        }
+        .background__lightblue--path::before{
+            content: '';
+            position: absolute;
+            width: 950px;
+            height: 800px;
+            background: $blue;
+            border-radius: 100%;
+            top: -65%;
+            left: 74%;
+            transform: translate(-50%, -50%);
+        }
+        
+
+    
+    /*.blue--path{
             fill:$blue;
 
         }
@@ -102,9 +169,5 @@ main{
             fill: $salmon;
             opacity: .38;
             transform: translateY(1000px);
-        }
-    }
+        }*/
 }
-
-
-
