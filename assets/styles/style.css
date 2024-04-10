@@ -151,6 +151,7 @@ body main .background__lightblue--path {
   position: relative;
   background-color: #00B1DC;
   overflow: hidden;
+  z-index: 1;
 }
 body main .background__lightblue--path::before {
   content: "";
@@ -230,6 +231,30 @@ body main .background__red--path1 {
   width: 50px;
   left: 75%;
   top: 50%;
+}
+
+.personone {
+  position: absolute;
+  width: 300px;
+  top: -20%;
+  left: 60%;
+  z-index: 3;
+}
+
+.persontwo {
+  position: absolute;
+  width: 300px;
+  top: -40%;
+  left: 40%;
+  z-index: 3;
+}
+
+.persontree {
+  position: absolute;
+  width: 300px;
+  top: -25%;
+  left: 15%;
+  z-index: 3;
 }
 
 /*.personone {

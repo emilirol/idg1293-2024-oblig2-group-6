@@ -188,6 +188,8 @@ body{
         position: relative;
         background-color: $lightBlue;
         overflow: hidden;  
+        z-index: 1;
+
         }
     &__lightblue--path::before{
             content: '';
@@ -277,6 +279,29 @@ body{
     }
 }
 
+.personone {
+    position: absolute;
+    width: 300px;
+    top: -20%;
+    left: 60%;
+    z-index: 3;
+}
+
+.persontwo {
+    position: absolute;
+    width: 300px;
+    top: -40%;
+    left: 40%;
+    z-index: 3;
+}
+
+.persontree {
+    position: absolute;
+    width: 300px;
+    top: -25%;
+    left: 15%;
+    z-index: 3;
+}
 /*.personone {
     position: relative;
     width: 200px;
