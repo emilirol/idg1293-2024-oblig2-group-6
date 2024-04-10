@@ -28,7 +28,7 @@ body main .postertext span {
 }
 body main .postertext__list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 body main .postertext__list--2::before {
   content: "•";
