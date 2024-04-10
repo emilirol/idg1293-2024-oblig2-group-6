@@ -22,6 +22,9 @@ body main .postertext {
   position: absolute;
   z-index: 2;
 }
+body main .postertext span {
+  font-size: 30px;
+}
 body main .postertext__footer {
   background-color: #005BA7;
   display: flex;
