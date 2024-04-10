@@ -25,6 +25,10 @@ body main .postertext {
 body main .postertext span {
   font-size: 30px;
 }
+body main .postertext__list {
+  display: flex;
+  flex-wrap: wrap;
+}
 body main .postertext__footer {
   max-width: 100%;
   background-color: #005BA7;
@@ -189,7 +193,7 @@ body main .background__lightblue--path1 {
 }
 body main .background__red--path {
   max-width: 100%;
-  height: 400px;
+  height: 1000px;
   position: relative;
   background-color: #C77161;
   overflow: hidden;
@@ -215,6 +219,10 @@ body main .background__red--path1 {
   top: 140%;
   left: 90%;
   transform: translate(-50%, -50%);
+}
+
+.earth {
+  max-width: 100%;
 }
 
 .car {
@@ -248,7 +256,7 @@ body main .background__red--path1 {
 .personone {
   position: absolute;
   width: 300px;
-  top: -20%;
+  top: 7%;
   left: 60%;
   z-index: 3;
 }
@@ -256,7 +264,7 @@ body main .background__red--path1 {
 .persontwo {
   position: absolute;
   width: 300px;
-  top: -40%;
+  top: -5%;
   left: 40%;
   z-index: 3;
 }
@@ -264,7 +272,7 @@ body main .background__red--path1 {
 .persontree {
   position: absolute;
   width: 300px;
-  top: -25%;
+  top: 4%;
   left: 15%;
   z-index: 3;
 }

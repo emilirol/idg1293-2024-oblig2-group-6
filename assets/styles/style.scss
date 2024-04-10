@@ -42,41 +42,52 @@ body{
             font-size: 30px;
         }
 
-    }
+        &__list{
+            display: flex;
+            flex-wrap: wrap;
 
-    .postertext__footer{
-        max-width: 100%;
-        background-color: $blue;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        a {
-            text-decoration: none;
-            color: $white;
-            
+            ::before{
+                content: ;
+            }
         }
 
-        &--link{
-            margin: 20px 20px;
-            padding-right: 20px;
-            border-right: solid $white 5px;
-        }
 
-        &--mail{
-            margin: 20px 20px;
-            
-        }
 
-        img{
-            width: 500px;
-            height: 50px;
-            padding: 0 20px 20px 0;
-            margin: 20px 20px 20px 100px;
-            border-right: solid $white 5px;
-
+        &__footer{
+            max-width: 100%;
+            background-color: $blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
     
+            a {
+                text-decoration: none;
+                color: $white;
+                
+            }
+    
+            &--link{
+                margin: 20px 20px;
+                padding-right: 20px;
+                border-right: solid $white 5px;
+            }
+    
+            &--mail{
+                margin: 20px 20px;
+                
+            }
+    
+            img{
+                width: 500px;
+                height: 50px;
+                padding: 0 20px 20px 0;
+                margin: 20px 20px 20px 100px;
+                border-right: solid $white 5px;
+    
+        
+            }
         }
+
     }
     
     .postertext__h1{
@@ -233,7 +244,7 @@ body{
 
     &__red--path{
         max-width: 100%;
-        height: 400px;
+        height: 1000px;
         position: relative;
         background-color: $salmon;
         overflow: hidden; 
@@ -263,6 +274,10 @@ body{
     } 
 
 }
+}
+
+.earth{
+    max-width: 100%;
 }
 
 
@@ -299,7 +314,7 @@ body{
 .personone {
     position: absolute;
     width: 300px;
-    top: -20%;
+    top: 7%;
     left: 60%;
     z-index: 3;
 }
@@ -307,7 +322,7 @@ body{
 .persontwo {
     position: absolute;
     width: 300px;
-    top: -40%;
+    top: -5%;
     left: 40%;
     z-index: 3;
 }
@@ -315,7 +330,7 @@ body{
 .persontree {
     position: absolute;
     width: 300px;
-    top: -25%;
+    top: 4%;
     left: 15%;
     z-index: 3;
 }
