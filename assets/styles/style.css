@@ -175,7 +175,6 @@ body main .background__white--path1 {
   transform: translate(-50%, -50%);
 }
 body main .background__blue--path {
-  max-width: 100%;
   height: 400px;
   background-color: #005BA7;
   overflow: hidden;
