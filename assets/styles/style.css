@@ -29,6 +29,11 @@ body main .postertext span {
 body main .postertext__list {
   display: flex;
   justify-content: space-evenly;
+  margin: 0;
+}
+body main .postertext__list a {
+  text-decoration: none;
+  color: black;
 }
 body main .postertext__list--2::before {
   content: "•";

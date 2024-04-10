@@ -45,6 +45,12 @@ body{
         &__list{
             display: flex;
             justify-content: space-evenly;
+            margin: 0;
+
+            a {
+                text-decoration: none;
+                color: $black;
+            }
 
             &--2::before{
                 content: '•';
