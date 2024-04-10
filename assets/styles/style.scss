@@ -22,7 +22,7 @@ body{
     border-style: solid;
 
     main{
-        max-width: 100%;
+        max-width:100%;
         /*width: 1096px;
         height: 1912px;*/
         position: relative;
@@ -84,6 +84,7 @@ body{
     }
     
     #earth{
+        
         .earth__background--blue{
             fill: $lightBlue;
             stroke: $black;
@@ -108,7 +109,7 @@ body{
     }
     
 .background{
-        max-width: 100%;
+        /*max-width: 100%;*/
     
     &__white--path{
         height: 200px;
@@ -182,13 +183,13 @@ body{
         background: $salmon;
         border-radius: 100%;
         top: 185%;
-        left: 88.5%;
+        left: 75%;
         transform: translate(-50%, -50%);
     }
 
     &__red--path{
         max-width: 100%;
-        height: 400px;
+        /*height: 400px;*/
         position: relative;
         background-color: $salmon;
         overflow: hidden; 
@@ -196,12 +197,12 @@ body{
     &__red--path::before{
         content: '';
             position: absolute;
-            width: 950px;
-            height: 800px;
+            width: 1250px;
+            height: 1000px;
             background: $lightBlue;
             border-radius: 100%;
             top: -70%;
-            left: 28%;
+            left: 25%;
             transform: translate(-50%, -50%);
     }
     &__red--path1{
@@ -218,4 +219,9 @@ body{
     } 
 
 }
+}
+
+.car {
+    position: relative; 
+    z-index: 3;
 }

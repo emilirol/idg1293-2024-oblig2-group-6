@@ -77,7 +77,7 @@ body main .poster__element--mooneyes {
   fill: black;
 }
 body main .background {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 body main .background__white--path {
   height: 200px;
@@ -151,12 +151,12 @@ body main .background__lightblue--path1 {
   background: #C77161;
   border-radius: 100%;
   top: 185%;
-  left: 88.5%;
+  left: 75%;
   transform: translate(-50%, -50%);
 }
 body main .background__red--path {
   max-width: 100%;
-  height: 400px;
+  /*height: 400px;*/
   position: relative;
   background-color: #C77161;
   overflow: hidden;
@@ -164,12 +164,12 @@ body main .background__red--path {
 body main .background__red--path::before {
   content: "";
   position: absolute;
-  width: 950px;
-  height: 800px;
+  width: 1250px;
+  height: 1000px;
   background: #00B1DC;
   border-radius: 100%;
   top: -70%;
-  left: 28%;
+  left: 25%;
   transform: translate(-50%, -50%);
 }
 body main .background__red--path1 {
@@ -182,4 +182,9 @@ body main .background__red--path1 {
   top: 140%;
   left: 90%;
   transform: translate(-50%, -50%);
+}
+
+.car {
+  position: relative;
+  z-index: 3;
 }/*# sourceMappingURL=style.css.map */
