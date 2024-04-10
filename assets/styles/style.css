@@ -13,22 +13,31 @@ body main {
   /*width: 1096px;
   height: 1912px;*/
   position: relative;
-  /*.postertext__list ul{
-      position: absolute;
-      background-color: $white;
-      z-index: 2;
-  }
-
-  .postertext__footer--link,
-  .postertext__footer--mail{
-      position: absolute;
-      background-color: $blue;
-      z-index: 2;
-  }*/
+}
+body main p,
+body main li {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 body main .postertext {
   position: absolute;
   z-index: 2;
+}
+body main .postertext__footer {
+  background-color: #005BA7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+body main .postertext__footer__footer--link {
+  margin: 20px 40px;
+}
+body main .postertext__footer__footer--mail {
+  margin: 40px 100px;
+}
+body main .postertext__footer img {
+  width: 500px;
+  height: 50px;
+  margin: 20px 20px 40px 100px;
 }
 body main .postertext__h1 {
   font-family: Helvetica, Arial, sans-serif;
@@ -47,7 +56,6 @@ body main .postertext__h1 span {
 }
 body main .postertext__h1 .postertext__h1--p {
   color: black;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 20px;
 }
 body main .background__blue--path .postertext {
@@ -72,6 +80,7 @@ body main .poster__element--moon {
   fill: #dedcdc;
   stroke: black;
   stroke-width: 5px;
+  z-index: 2;
 }
 body main .poster__element--mooneyes {
   fill: black;
