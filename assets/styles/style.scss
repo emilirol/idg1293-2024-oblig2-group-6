@@ -38,26 +38,43 @@ body{
         position: absolute;
         z-index: 2;
 
+        span{
+            font-size: 30px;
+        }
+
     }
 
     .postertext__footer{
+        max-width: 100%;
         background-color: $blue;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
 
-        &__footer--link{
-            margin: 20px 40px;
+        a {
+            text-decoration: none;
+            color: $white;
+            
         }
 
-        &__footer--mail{
-            margin: 40px 100px;
+        &--link{
+            margin: 20px 20px;
+            padding-right: 20px;
+            border-right: solid $white 5px;
+        }
+
+        &--mail{
+            margin: 20px 20px;
+            
         }
 
         img{
             width: 500px;
             height: 50px;
-            margin: 20px 20px 40px 100px;
+            padding: 0 20px 20px 0;
+            margin: 20px 20px 20px 100px;
+            border-right: solid $white 5px;
+
     
         }
     }
@@ -216,7 +233,7 @@ body{
 
     &__red--path{
         max-width: 100%;
-        /*height: 400px;*/
+        height: 400px;
         position: relative;
         background-color: $salmon;
         overflow: hidden; 
