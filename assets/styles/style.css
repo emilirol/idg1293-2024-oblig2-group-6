@@ -88,11 +88,41 @@ body main .postertext__h1 .postertext__h1--p {
 }
 body main .postertext__h2 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  font-size: 30px;
+  font-size: 35px;
   position: absolute;
   z-index: 3;
-  top: 50%;
+  top: 60%;
+  left: 35%;
+}
+body main .postertext__earth1 {
+  position: absolute;
+  font-size: 25px;
+  top: 55%;
+  left: 7%;
+}
+body main .postertext__earth2 {
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
   left: 40%;
+}
+body main .postertext__earth3 {
+  position: absolute;
+  font-size: 25px;
+  top: 40%;
+  left: 85%;
+}
+body main .postertext__earth4 {
+  position: absolute;
+  font-size: 25px;
+  top: 85%;
+  left: 85%;
+}
+body main .postertext__earth5 {
+  position: absolute;
+  font-size: 25px;
+  top: 85%;
+  left: 45%;
 }
 body main .background__blue--path {
   /*height: 700px; */
