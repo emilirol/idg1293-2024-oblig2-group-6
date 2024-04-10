@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*img{
     width: 1096px;
     height: 1912px;
@@ -28,6 +29,12 @@ body main .postertext span {
 body main .postertext__list {
   display: flex;
   flex-wrap: wrap;
+}
+body main .postertext__list--2::before {
+  content: "•";
+}
+body main .postertext__list--4::before {
+  content: "•";
 }
 body main .postertext__footer {
   max-width: 100%;

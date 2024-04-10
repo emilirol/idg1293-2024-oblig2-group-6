@@ -46,8 +46,12 @@ body{
             display: flex;
             flex-wrap: wrap;
 
-            ::before{
-                content: ;
+            &--2::before{
+                content: '•';
+            }
+
+            &--4::before{
+                content: '•';
             }
         }
 
