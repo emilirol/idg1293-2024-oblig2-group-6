@@ -280,6 +280,7 @@ body main .background__red--path1 {
   width: 100px;
   left: 80%;
   top: 40%;
+  animation: rock 1s ease-in-out infinite alternate;
 }
 
 .startwo {
@@ -288,6 +289,7 @@ body main .background__red--path1 {
   top: 40%;
   z-index: 3;
   width: 50px;
+  animation: rock 1s ease-in-out infinite alternate;
 }
 
 .greencloud--small {
@@ -303,6 +305,7 @@ body main .background__red--path1 {
   top: 7%;
   left: 60%;
   z-index: 3;
+  animation: rock 1s ease-in-out infinite alternate;
 }
 
 .persontwo {
@@ -311,6 +314,7 @@ body main .background__red--path1 {
   top: -5%;
   left: 40%;
   z-index: 3;
+  animation: rock 1s ease-in-out infinite alternate;
 }
 
 .persontree {
@@ -319,8 +323,17 @@ body main .background__red--path1 {
   top: 4%;
   left: 15%;
   z-index: 3;
+  animation: rock 1s ease-in-out infinite alternate;
 }
 
+@keyframes rock {
+  from {
+    transform: rotateZ(-5deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
 /*.personone {
     position: relative;
     width: 200px;
