@@ -126,27 +126,27 @@ body main .poster__element--mooneyes {
 }
 body main .background {
   /*max-width: 100%;*/
+  position: relative;
 }
 body main .background__white--path {
   height: 400px;
-  position: relative;
   background-color: #FFFFFF;
   overflow: hidden;
 }
-body main .background__white--path::before {
-  content: "";
-  position: absolute;
-  width: 1200px;
-  height: 800px;
-  background: #005BA7;
-  border-radius: 50%;
-  top: 150%;
-  right: -60%;
-  transform: translate(-50%, -50%);
-}
 body main .background__white--path1 {
   content: "";
-  position: absolute;
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  background: #005BA7;
+  border-radius: 50%;
+  top: 115%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+body main .background__white--path2 {
+  content: "";
+  position: relative;
   width: 1500px;
   height: 850px;
   background: #FFFFFF;
@@ -158,7 +158,6 @@ body main .background__white--path1 {
 body main .background__blue--path {
   max-width: 100%;
   height: 400px;
-  position: relative;
   background-color: #005BA7;
   overflow: hidden;
 }
@@ -176,7 +175,6 @@ body main .background__blue--path::before {
 body main .background__lightblue--path {
   max-width: 100%;
   height: 500px;
-  position: relative;
   background-color: #00B1DC;
   overflow: hidden;
   z-index: 1;
@@ -206,7 +204,6 @@ body main .background__lightblue--path1 {
 body main .background__red--path {
   max-width: 100%;
   height: 1000px;
-  position: relative;
   background-color: #C77161;
   overflow: hidden;
 }
