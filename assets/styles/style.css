@@ -36,11 +36,11 @@ body main .postertext__footer a {
   color: #FFFFFF;
 }
 body main .postertext__footer__footer--link {
-  margin: 20px 40px;
+  margin: 20px 20px;
   border-right: solid #FFFFFF 5px;
 }
 body main .postertext__footer__footer--mail {
-  margin: 40px 100px;
+  margin: 20px 20px;
 }
 body main .postertext__footer img {
   max-width: 100%;
