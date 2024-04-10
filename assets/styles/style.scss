@@ -125,11 +125,42 @@ body{
 
     .postertext__h2 {
         font-family:"Comic Sans MS", "Comic Sans", cursive;
-        font-size: 30px;
+        font-size: 35px;
         position: absolute;
         z-index: 3;
-        top: 50%;
+        top: 60%;
+        left: 35%;
+    }
+
+    .postertext__earth1 {
+        position: absolute;
+        font-size: 25px; 
+        top: 55%;
+        left: 7%;
+    }  
+    .postertext__earth2 {
+        position: absolute;
+        font-size: 25px; 
+        top: 40%;
         left: 40%;
+    }
+    .postertext__earth3 {
+        position: absolute;
+        font-size: 25px; 
+        top: 40%;
+        left: 85%;
+    }
+    .postertext__earth4 {
+        position: absolute;
+        font-size: 25px; 
+        top: 85%;
+        left: 85%;
+    }
+    .postertext__earth5 {
+        position: absolute;
+        font-size: 25px; 
+        top: 85%;
+        left: 45%;
     }
 
     
