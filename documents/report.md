@@ -6,3 +6,5 @@ The earth is made with svg path.
 The svg persons, the green cloud, the car and the star are implemented with image element. 
 
 In the "footer" it was decided to use justefy-content: space evenly, to make the content easier to read. 
+
+I was a bit slow to answer the first message. I offered to split the work, but the other member suggested that she complete the first part of the code since she had already started. She had already extracted the SVG elements, so it was my job to style them correctly in terms of positioning and size. I used both viewBox and CSS to achieve this. I also animated the SVG using various types of animations, including CSS animations and SMIL animations. I used SMIL animation for the eyes on the moon and CSS animation for the people and the stars. 
