@@ -1,17 +1,9 @@
-/*img{
-    width: 1096px;
-    height: 1912px;
-    z-index: -3;
-    opacity: .15;
-}*/
 body {
   border-color: black;
   border-style: solid;
 }
 body main {
   max-width: 100%;
-  /*width: 1096px;
-  height: 1912px;*/
   position: relative;
 }
 body main p,
@@ -137,9 +129,6 @@ body main .postertext__earth5 {
   font-size: 1.5vw;
   top: 85%;
   left: 45%;
-}
-body main .background__blue--path {
-  /*height: 700px; */
 }
 body main .background__blue--path .postertext {
   color: #FFFFFF;
@@ -371,8 +360,8 @@ body main .background__red--path1 {
 
 .persons {
   position: relative;
-  width: 100%; /* Set the width of the container to 100% */
-  height: auto; /* This will maintain the aspect ratio */
+  width: 100%;
+  height: auto;
 }
 .persons img {
   max-width: 100%;
