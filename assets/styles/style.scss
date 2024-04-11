@@ -366,51 +366,51 @@ body{
     &--1 {
         position: relative;
         width: 5%;
-        left: 10%;
-        top: 90%;
+        left: -10%;
+        top: 60%;
         z-index: 3;
     }
     &--2 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;
+        left: 0%;
+        top: 65%;
     }
     &--3 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;  
+        left: 5%;
+        top: 60%;  
     }
     &--4 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;  
+        left: 10%;
+        top: 55%;  
     }
     &--5 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;  
+        left: 35%;
+        top: 5%;  
     }
     &--6 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;  
+        right: -35%;
+        top: 60%;  
     }
     &--7 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;
+        left: 65%;
+        top: 0%;
     }
     &--8 {
         position: relative;
         width: 5%;
-        left: 75%;
-        top: 50%;
+        left: 70%;
+        top: 5%;
     }
 }
 
@@ -427,7 +427,7 @@ body{
   
 .personone {
     position: absolute;
-    width: 30%;
+    width: 20%;
     top: 7%;
     left: 60%;
     z-index: 3;
@@ -437,7 +437,7 @@ body{
 
 .persontwo {
     position: absolute;
-    width: 30%;
+    width: 20%;
     top: -5%;
     left: 40%;
     z-index: 3;
@@ -446,8 +446,7 @@ body{
 
 .persontree {
     position: absolute;
-    width: 30%;
-    top: 4%;
+    width: 25%;
     left: 10%;
     z-index: 3;
     animation: rock 1s ease-in-out infinite alternate;
