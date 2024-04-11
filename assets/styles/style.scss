@@ -37,10 +37,14 @@ body{
     .postertext{
         position: absolute;
         z-index: 2;
-        width: 100%;
+        max-width: 100%;
+
+        p{
+            font-size: 2vw;
+        }
 
         span{
-            font-size: 30px;
+            font-size: 2.5vw;
         }
 
         &__list{
@@ -100,12 +104,13 @@ body{
         position: absolute;
         color:$blue;
         z-index: 1;
-        left: 5%;
+        left: 10%;
+        top: 10%;
         margin-top: 20px;
 
         h1 {
             font-weight: 800;
-            font-size: 40px;
+            font-size: 3vw;
         }
         
         span{
@@ -114,62 +119,62 @@ body{
 
         .postertext__h1--p{
             color:$black;
-            font-size: 20px;
+            font-size: 1.5vw;
         }
     }
 
     
     .postertext__h2 {
         font-family:"Comic Sans MS", "Comic Sans", cursive;
-        font-size: 35px;
+        font-size: 2.5vw;
         position: absolute;
         z-index: 3;
         top: 60%;
-        left: 35%;
+        left: 30%;
     }
     
     .postertext__earth1 {
         background-color: $earthGreen;
-        padding: 30px;
+        padding: 1vw;
         border-radius: 85% 90% 70% 45%;
         position: absolute;
-        font-size: 25px; 
+        font-size: 1.5vw; 
         top: 55%;
-        left: 7%;
+        left: 10%;
     }  
     .postertext__earth2 {
         background-color: $earthGreen;
-        padding: 30px;
+        padding: 1vw;
         border-radius: 50% 35% 90% 25%;
         position: absolute;
-        font-size: 25px; 
+        font-size: 1.5vw; 
         top: 40%;
         left: 40%;
     }
     .postertext__earth3 {
         background-color: $earthGreen;
-        padding: 30px;
+        padding: 1vw;
         border-radius: 15% 90% 60% 25%;
         position: absolute;
-        font-size: 25px; 
-        top: 40%;
-        left: 85%;
+        font-size: 1.2vw; 
+        top: 50%;
+        left: 70%;
     }
     .postertext__earth4 {
         background-color: $earthGreen;
-        padding: 30px;
+        padding: 1vw;
         border-radius: 70% 85% 70% 25%;
         position: absolute;
-        font-size: 25px; 
+        font-size: 1.5vw; 
         top: 85%;
         left: 85%;
     }
     .postertext__earth5 {
         background-color: $earthGreen;
-        padding: 30px;
+        padding: 1vw;
         border-radius: 75%;
         position: absolute;
-        font-size: 25px; 
+        font-size: 1.5vw; 
         top: 85%;
         left: 45%;
     }
@@ -180,8 +185,8 @@ body{
         .postertext {
             color:$white;
             font-family:"Comic Sans MS", cursive;
-            font-size: 25px;
-            top: 27%;
+            font-size: 1.5vw;
+            top: 34%;
             left: 5%;
         }
 
