@@ -68,7 +68,7 @@ body main .postertext__h1 {
   color: #005BA7;
   z-index: 1;
   left: 5%;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 body main .postertext__h1 h1 {
   font-weight: 800;
