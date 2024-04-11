@@ -323,26 +323,38 @@ body{
 
 .car {
     position: relative; 
-    z-index: 3;
-    width: 200px;
+    width: 20%;
     left: 31%;
+    z-index: 3;
 }
 
+.stars {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+
+    img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+  
 .starone {
     position: relative;
-    z-index: 3;
-    width: 100px;
+    width: 10%;
     left: 80%;
     top: 40%;
+    z-index: 3;
     animation: rock 1s ease-in-out infinite alternate;
 }
 
 .startwo {
     position: relative;
+    width: 5%;
     left: 82%;
     top:40%;
     z-index: 3;
-    width: 50px;
+
     animation: rock 1s ease-in-out infinite alternate;
 }
 
@@ -355,9 +367,20 @@ body{
     }
 }
 
+.persons {
+    position: relative;
+    width: 100%; /* Set the width of the container to 100% */
+    height: auto; /* This will maintain the aspect ratio */
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+}
+  
 .personone {
     position: absolute;
-    width: 300px;
+    width: 30%;
     top: 7%;
     left: 60%;
     z-index: 3;
@@ -367,7 +390,7 @@ body{
 
 .persontwo {
     position: absolute;
-    width: 300px;
+    width: 30%;
     top: -5%;
     left: 40%;
     z-index: 3;
@@ -376,9 +399,9 @@ body{
 
 .persontree {
     position: absolute;
-    width: 300px;
+    width: 30%;
     top: 4%;
-    left: 15%;
+    left: 10%;
     z-index: 3;
     animation: rock 1s ease-in-out infinite alternate;
 }
@@ -391,10 +414,3 @@ body{
         transform: rotateZ(5deg);
     }
 }
-/*.personone {
-    position: relative;
-    width: 200px;
-    bottom: 10%;
-    left: 70%;
-    z-index: 3;
-}*/
