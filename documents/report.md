@@ -9,4 +9,4 @@ In the "footer" it was decided to use justefy-content: space evenly, to make the
 
 I was a bit slow to answer the first message. I offered to split the work, but the other member suggested that she complete the first part of the code since she had already started. 
 
-After the SVG elements was extracted, I used both viewBox and CSSstyle them correctly in terms of positioning and size. I also animated the SVG using various types of animations, including CSS animations and SMIL animations. I used SMIL animation for the eyes on the moon and CSS animation for the people and the stars. 
+After the SVG elements was extracted, I used both viewBox and CSS to style them correctly in terms of positioning and size. I also animated the SVG using various types of animations, including CSS animations and SMIL animations. I used SMIL animation for the eyes on the moon and CSS animation for the people and the stars. I used these animation types since it was a part of the requierment and i knew how to use them. 
