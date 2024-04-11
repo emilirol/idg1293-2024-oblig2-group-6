@@ -9,22 +9,12 @@ $earthGreen:rgb(5, 137, 5);
 $greenText: rgb(6, 178, 6);
 $black:black;
 
-
-/*img{
-    width: 1096px;
-    height: 1912px;
-    z-index: -3;
-    opacity: .15;
-}*/
-
 body{
     border-color: black;
     border-style: solid;
 
     main{
         max-width:100%;
-        /*width: 1096px;
-        height: 1912px;*/
         position: relative;
 
         p,
@@ -87,7 +77,6 @@ body{
     
             img{
                 max-width: 100%;
-                //width: 500px;
                 height: 50px;
                 padding: 0 20px 20px 0;
                 margin: 20px 20px 20px 100px;
@@ -181,7 +170,6 @@ body{
 
     
     .background__blue--path {
-        /*height: 700px; */
         .postertext {
             color:$white;
             font-family:"Comic Sans MS", cursive;
@@ -436,8 +424,8 @@ body{
 
 .persons {
     position: relative;
-    width: 100%; /* Set the width of the container to 100% */
-    height: auto; /* This will maintain the aspect ratio */
+    width: 100%;
+    height: auto; 
 
     img {
     max-width: 100%;
