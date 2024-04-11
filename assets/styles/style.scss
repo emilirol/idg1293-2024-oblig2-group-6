@@ -1,1 +1,470 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+$salmon: #C77161;
+$blue:#005BA7;
+$lightBlue:#00B1DC;
+$white:#FFFFFF;
+$lightGreyPath:#dedcdc;
+$grey: rgba(128, 128, 128, 0.806);
+$earthGreen:rgb(5, 137, 5);
+$greenText: rgb(6, 178, 6);
+$black:black;
+
+body{
+    border-color: black;
+    border-style: solid;
+
+    main{
+        max-width:100%;
+        position: relative;
+
+        p,
+        li{
+            font-family:"Comic Sans MS", "Comic Sans", cursive;
+        }
+
+    
+
+    .postertext{
+        position: absolute;
+        z-index: 2;
+        max-width: 100%;
+
+        p{
+            font-size: 2vw;
+        }
+
+        span{
+            font-size: 2.5vw;
+        }
+
+        &__list{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0;
+
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+        }
+
+
+
+        &__footer{
+            max-width: 100%;
+            background-color: $blue;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: row;
+    
+            a {
+                text-decoration: none;
+                color: $white;
+                
+            }
+    
+            &--link{
+                margin: 20px 20px;
+                padding-right: 20px;
+                border-right: solid $white 5px;
+            }
+    
+            &--mail{
+                margin: 20px 20px;
+                
+            }
+    
+            img{
+                max-width: 100%;
+                height: 50px;
+                padding: 0 20px 20px 0;
+                margin: 20px 20px 20px 100px;
+                border-right: solid $white 5px;
+    
+        
+            }
+        }
+
+    }
+    
+    .postertext__h1{
+        font-family: Helvetica, Arial, sans-serif;
+        position: absolute;
+        color:$blue;
+        z-index: 1;
+        left: 10%;
+        top: 10%;
+        margin-top: 20px;
+
+        h1 {
+            font-weight: 800;
+            font-size: 3vw;
+        }
+        
+        span{
+            color: $greenText;
+        }
+
+        .postertext__h1--p{
+            color:$black;
+            font-size: 1.5vw;
+        }
+    }
+
+    
+    .postertext__h2 {
+        font-family:"Comic Sans MS", "Comic Sans", cursive;
+        font-size: 2.5vw;
+        position: absolute;
+        z-index: 3;
+        top: 60%;
+        left: 30%;
+    }
+    
+    .postertext__earth1 {
+        background-color: $earthGreen;
+        padding: 1vw;
+        border-radius: 85% 90% 70% 45%;
+        position: absolute;
+        font-size: 1.5vw; 
+        top: 55%;
+        left: 10%;
+    }  
+    .postertext__earth2 {
+        background-color: $earthGreen;
+        padding: 1vw;
+        border-radius: 50% 35% 90% 25%;
+        position: absolute;
+        font-size: 1.5vw; 
+        top: 40%;
+        left: 40%;
+    }
+    .postertext__earth3 {
+        background-color: $earthGreen;
+        padding: 1vw;
+        border-radius: 15% 90% 60% 25%;
+        position: absolute;
+        font-size: 1.2vw; 
+        top: 50%;
+        left: 70%;
+    }
+    .postertext__earth4 {
+        background-color: $earthGreen;
+        padding: 1vw;
+        border-radius: 70% 85% 70% 25%;
+        position: absolute;
+        font-size: 1.5vw; 
+        top: 85%;
+        left: 85%;
+    }
+    .postertext__earth5 {
+        background-color: $earthGreen;
+        padding: 1vw;
+        border-radius: 75%;
+        position: absolute;
+        font-size: 1.5vw; 
+        top: 85%;
+        left: 45%;
+    }
+
+    
+    .background__blue--path {
+        .postertext {
+            color:$white;
+            font-family:"Comic Sans MS", cursive;
+            font-size: 1.5vw;
+            top: 34%;
+            left: 5%;
+        }
+
+    }
+    
+    #earth{
+        
+        .earth__background--blue{
+            fill: $lightBlue;
+            stroke: $black;
+            stroke-width: 5px;
+            position: absolute;
+            z-index: -3;
+        }
+    
+        .earth__background--eye{
+            fill: $black;
+            stroke: $white;
+        }
+    }
+
+    .poster__element--moon{
+        fill: $lightGreyPath;
+        stroke: $black;
+        stroke-width: 5px;
+        z-index: 2;
+
+    }
+    .poster__element--mooneyes{
+        fill: $black;
+    }
+    
+.background{
+        max-width: 100%;
+    
+    &__white--path{
+        height: 400px;
+        background-color: $white;
+        overflow: hidden;  
+        position: relative;
+        }
+    &__white--path::before{
+        content:'';
+        position: absolute;
+        width: 60%;
+        height: 500px;
+        background: $blue;
+        border-radius:100%;
+        top: 110%;
+        left:81.5%;
+        transform: translate(-50%, -50%);
+        }
+    &__blue--path{
+        height: 400px;
+        background-color: $blue;
+        overflow: hidden;
+        position: relative;
+        }
+        &__white--path2{
+            content:'';
+            position: absolute;
+            width: 70%;
+            height: 850px;
+            background: $white;
+            border-radius:50%;
+            top:-70%;
+            right:4.5%;
+            transform: translate(-50%, -50%);
+            }
+    &__blue--path::before{
+        content:'';
+        position: absolute;
+        width: 60%;
+        height: 500px;
+        background: $lightBlue;
+        border-radius: 100%;
+        top: 130%;
+        left:22%;
+        transform: translate(-50%, -50%);
+        }
+    &__lightblue--path{
+        max-width: 100%;
+        height: 500px;
+        background-color: $lightBlue;
+        overflow: hidden;
+        position: relative;  
+
+        }
+    &__lightblue--path::before{
+            content: '';
+            position: absolute;
+            width: 62.5%;
+            height: 500px;
+            background: $blue;
+            border-radius: 100%;
+            top: -5%;
+            left: 79.5%;
+            transform: translate(-50%, -50%);
+        }
+    &__lightblue--path1{
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 1000px;
+        background: $salmon;
+        border-radius: 100%;
+        top: 170%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__red--path{
+        max-width: 100%;
+        height: 1000px;
+        background-color: $salmon;
+        overflow: hidden; 
+        position: relative;
+    }
+    &__red--path::before{
+        content: '';
+            position: absolute;
+            width: 80%;
+            height: 1000px;
+            background: $lightBlue;
+            border-radius: 100%;
+            top: -30%;
+            left: 31.5%;
+            transform: translate(-50%, -50%);
+    }
+    &__red--path1{
+        content: '';
+            position: absolute;
+            width: 950px;
+            height: 800px;
+            background: $white;
+            border-radius: 100%;
+            top: 100%;
+            left: 90%;
+            transform: translate(-50%, -50%);
+    }
+    } 
+
+}
+}
+
+.earth{
+    max-width: 100%;
+}
+
+
+.car {
+    position: relative; 
+    width: 20%;
+    left: 31%;
+    z-index: 3;
+}
+
+.star {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+  
+  &--1 {
+    position: relative;
+    width: 10%;
+    left: 80%;
+    top: 40%;
+    z-index: 3;
+    animation: rock 1s ease-in-out infinite alternate;
+    }
+
+    &--2 {
+    position: relative;
+    width: 5%;
+    left: 82%;
+    top:40%;
+    z-index: 3;
+    animation: rock 1s ease-in-out infinite alternate;
+    }
+}
+  
+
+
+.greencloud__small {
+    &--1 {
+        position: relative;
+        width: 5%;
+        left: -10%;
+        top: 60%;
+        z-index: 3;
+    }
+    &--2 {
+        position: relative;
+        width: 5%;
+        left: 0%;
+        top: 65%;
+    }
+    &--3 {
+        position: relative;
+        width: 5%;
+        left: 5%;
+        top: 60%;  
+    }
+    &--4 {
+        position: relative;
+        width: 5%;
+        left: 10%;
+        top: 55%;  
+    }
+    &--5 {
+        position: relative;
+        width: 5%;
+        left: 35%;
+        top: 5%;  
+    }
+    &--6 {
+        position: relative;
+        width: 5%;
+        right: -35%;
+        top: 60%;  
+    }
+    &--7 {
+        position: relative;
+        width: 5%;
+        left: 65%;
+        top: 0%;
+    }
+    &--8 {
+        position: relative;
+        width: 5%;
+        left: 70%;
+        top: 5%;
+    }
+}
+
+.greencloud__big {
+    position: relative;
+    width: 10%;
+    right: -10%;
+    top: 60%;  
+}
+
+.persons {
+    position: relative;
+    width: 100%;
+    height: auto; 
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+}
+  
+.personone {
+    position: absolute;
+    width: 20%;
+    top: 7%;
+    left: 60%;
+    z-index: 3;
+    animation: rock 1s ease-in-out infinite alternate;
+
+}
+
+.persontwo {
+    position: absolute;
+    width: 20%;
+    top: -5%;
+    left: 40%;
+    z-index: 3;
+    animation: rock 1s ease-in-out infinite alternate;
+}
+
+.persontree {
+    position: absolute;
+    width: 25%;
+    left: 10%;
+    z-index: 3;
+    animation: rock 1s ease-in-out infinite alternate;
+}
+
+@keyframes rock {
+    from {
+        transform: rotateZ(-5deg);
+    }
+    to {
+        transform: rotateZ(5deg);
+    }
+}
