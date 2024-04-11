@@ -272,17 +272,16 @@ body main .background__red--path1 {
   z-index: 3;
 }
 
-.stars {
+.star {
   position: relative;
   width: 100%;
   height: auto;
 }
-.stars img {
+.star img {
   max-width: 100%;
   height: auto;
 }
-
-.starone {
+.star--1 {
   position: relative;
   width: 10%;
   left: 80%;
@@ -290,8 +289,7 @@ body main .background__red--path1 {
   z-index: 3;
   animation: rock 1s ease-in-out infinite alternate;
 }
-
-.startwo {
+.star--2 {
   position: relative;
   width: 5%;
   left: 82%;
@@ -300,9 +298,52 @@ body main .background__red--path1 {
   animation: rock 1s ease-in-out infinite alternate;
 }
 
-.greencloud--small {
+.greencloud__small--1 {
   position: relative;
-  width: 50px;
+  width: 5%;
+  left: 10%;
+  top: 90%;
+  z-index: 3;
+}
+.greencloud__small--2 {
+  position: relative;
+  width: 5%;
+  left: 75%;
+  top: 50%;
+}
+.greencloud__small--3 {
+  position: relative;
+  width: 5%;
+  left: 75%;
+  top: 50%;
+}
+.greencloud__small--4 {
+  position: relative;
+  width: 5%;
+  left: 75%;
+  top: 50%;
+}
+.greencloud__small--5 {
+  position: relative;
+  width: 5%;
+  left: 75%;
+  top: 50%;
+}
+.greencloud__small--6 {
+  position: relative;
+  width: 5%;
+  left: 75%;
+  top: 50%;
+}
+.greencloud__small--7 {
+  position: relative;
+  width: 5%;
+  left: 75%;
+  top: 50%;
+}
+.greencloud__small--8 {
+  position: relative;
+  width: 5%;
   left: 75%;
   top: 50%;
 }

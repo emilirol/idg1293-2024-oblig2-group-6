@@ -328,7 +328,7 @@ body{
     z-index: 3;
 }
 
-.stars {
+.star {
     position: relative;
     width: 100%; 
     height: auto; 
@@ -336,32 +336,76 @@ body{
     img {
     max-width: 100%;
     height: auto;
-  }
-}
+    }
   
-.starone {
+  &--1 {
     position: relative;
     width: 10%;
     left: 80%;
     top: 40%;
     z-index: 3;
     animation: rock 1s ease-in-out infinite alternate;
-}
+    }
 
-.startwo {
+    &--2 {
     position: relative;
     width: 5%;
     left: 82%;
     top:40%;
     z-index: 3;
-
     animation: rock 1s ease-in-out infinite alternate;
+    }
 }
+  
 
-.greencloud {
-    &--small {
+
+.greencloud__small {
+    &--1 {
         position: relative;
-        width: 50px;
+        width: 5%;
+        left: 10%;
+        top: 90%;
+        z-index: 3;
+    }
+    &--2 {
+        position: relative;
+        width: 5%;
+        left: 75%;
+        top: 50%;
+    }
+    &--3 {
+        position: relative;
+        width: 5%;
+        left: 75%;
+        top: 50%;  
+    }
+    &--4 {
+        position: relative;
+        width: 5%;
+        left: 75%;
+        top: 50%;  
+    }
+    &--5 {
+        position: relative;
+        width: 5%;
+        left: 75%;
+        top: 50%;  
+    }
+    &--6 {
+        position: relative;
+        width: 5%;
+        left: 75%;
+        top: 50%;  
+    }
+    &--7 {
+        position: relative;
+        width: 5%;
+        left: 75%;
+        top: 50%;
+    }
+    &--8 {
+        position: relative;
+        width: 5%;
         left: 75%;
         top: 50%;
     }
