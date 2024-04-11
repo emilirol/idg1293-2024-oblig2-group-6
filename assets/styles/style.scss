@@ -5,7 +5,7 @@ $lightBlue:#00B1DC;
 $white:#FFFFFF;
 $lightGreyPath:#dedcdc;
 $grey: rgba(128, 128, 128, 0.806);
-$earthGreen:rgb(3, 94, 3);
+$earthGreen:rgb(5, 137, 5);
 $greenText: rgb(6, 178, 6);
 $black:black;
 
@@ -126,6 +126,7 @@ body{
         }
     }
 
+    
     .postertext__h2 {
         font-family:"Comic Sans MS", "Comic Sans", cursive;
         font-size: 35px;
@@ -136,30 +137,45 @@ body{
     }
     
     .postertext__earth1 {
+        background-color: $earthGreen;
+        padding: 30px;
+        border-radius: 85% 90% 70% 45%;
         position: absolute;
         font-size: 25px; 
         top: 55%;
         left: 7%;
     }  
     .postertext__earth2 {
+        background-color: $earthGreen;
+        padding: 30px;
+        border-radius: 50% 35% 90% 25%;
         position: absolute;
         font-size: 25px; 
         top: 40%;
         left: 40%;
     }
     .postertext__earth3 {
+        background-color: $earthGreen;
+        padding: 30px;
+        border-radius: 15% 90% 60% 25%;
         position: absolute;
         font-size: 25px; 
         top: 40%;
         left: 85%;
     }
     .postertext__earth4 {
+        background-color: $earthGreen;
+        padding: 30px;
+        border-radius: 70% 85% 70% 25%;
         position: absolute;
         font-size: 25px; 
         top: 85%;
         left: 85%;
     }
     .postertext__earth5 {
+        background-color: $earthGreen;
+        padding: 30px;
+        border-radius: 75%;
         position: absolute;
         font-size: 25px; 
         top: 85%;
