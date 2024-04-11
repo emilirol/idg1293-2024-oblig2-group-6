@@ -52,14 +52,6 @@ body{
                 text-decoration: none;
                 color: $black;
             }
-
-            &--2::before{
-                content: '•';
-            }
-
-            &--4::before{
-                content: '•';
-            }
         }
 
 
