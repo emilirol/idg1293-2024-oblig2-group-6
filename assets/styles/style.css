@@ -166,7 +166,7 @@ body main .background__white--path {
 body main .background__white--path::before {
   content: "";
   position: absolute;
-  width: 1050px;
+  width: 60%;
   height: 500px;
   background: #005BA7;
   border-radius: 100%;
@@ -183,18 +183,18 @@ body main .background__blue--path {
 body main .background__white--path2 {
   content: "";
   position: absolute;
-  width: 1500px;
+  width: 70%;
   height: 850px;
   background: #FFFFFF;
   border-radius: 50%;
   top: -70%;
-  right: -6.52%;
+  right: 4.5%;
   transform: translate(-50%, -50%);
 }
 body main .background__blue--path::before {
   content: "";
   position: absolute;
-  width: 850px;
+  width: 60%;
   height: 500px;
   background: #00B1DC;
   border-radius: 100%;
@@ -212,23 +212,23 @@ body main .background__lightblue--path {
 body main .background__lightblue--path::before {
   content: "";
   position: absolute;
-  width: 1200px;
+  width: 62.5%;
   height: 500px;
   background: #005BA7;
   border-radius: 100%;
   top: -5%;
-  left: 80%;
+  left: 79.5%;
   transform: translate(-50%, -50%);
 }
 body main .background__lightblue--path1 {
   content: "";
   position: absolute;
-  width: 1000px;
-  height: 900px;
+  width: 60%;
+  height: 1000px;
   background: #C77161;
   border-radius: 100%;
-  top: 160%;
-  left: 80%;
+  top: 170%;
+  left: 85%;
   transform: translate(-50%, -50%);
 }
 body main .background__red--path {
@@ -241,12 +241,12 @@ body main .background__red--path {
 body main .background__red--path::before {
   content: "";
   position: absolute;
-  width: 1220px;
+  width: 80%;
   height: 1000px;
   background: #00B1DC;
   border-radius: 100%;
   top: -30%;
-  left: 28.5%;
+  left: 31.5%;
   transform: translate(-50%, -50%);
 }
 body main .background__red--path1 {
