@@ -1,47 +1,44 @@
-// USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
-
-
 body{
-    main{
-        position: relative;
-        max-width: 850px;
-        max-height: 935px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
 
+.poster__background{
+    position: relative;
 
-        .background{
-            position: absolute;
-            width: 50vw;
-
-            &__lightblue{
-                
-                top: 20vw;
-                
-            }
-
-            &__blue{
-                top: 20vw;
-
-            }
-
-            &__white{
-                top: 0;
-                left: 0;
-
-            }
-
-          
-
-
-            &__red{
-
-            }
-        }
+    .lightBlue{
+        position: absolute;
+        top: 20vw;
     }
 
-  
+    .blue{
+        position: absolute;
+    }
 
+    .white{
+        position: absolute;
+    }
+
+    .red{
+        position: absolute;
+        top: 50vh;
+    }
+
+    .earth{
+        position: absolute;
+        top: ;
+    }
+
+    .footer-white{
+        position: absolute;
+        top: 94;
+    }
+
+    .footer-blue{
+        position: absolute;
+        top: 96.3vw;
+    }
 }
