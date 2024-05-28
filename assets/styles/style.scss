@@ -66,19 +66,13 @@
         top: 98%;
     }
 
-    .textTiktok{
-        position: absolute;
-
-        .__lightblue{
+    .lightblue{
         z-index: 1;
         color: white;
         width: 35%;
         top: 105%;
         left: 5%;
         }
-       
-    }
-
 
     #pathToMoon{
         top: 100%;
@@ -92,7 +86,7 @@
         right: 36%;
     }
 
-    .cloud{
+    /*.cloud{
         position: absolute;
         width: 5%;
         #cloud1{
@@ -128,7 +122,7 @@
         #cloud11{
     
         }
-    }
+    }*/
   
     #redWave{
         top: 250%;
@@ -138,31 +132,58 @@
         top: 312%;
     }
 
+    .earthText{
+        position: absolute;
+        z-index: 3;
+        width: 5%;
+        .__left>p{
+            top: 312%;
+            left: 10%;
+        }
+        /*.__middle{
+            
+        }
+        .__heading{
+            
+        }
+        .__middle-bottom{
+
+        }
+        .right{
+            .-bottom{
+            
+            }
+            .-top{
+            }
+        }*/
+       
+    }
+
     #footerWhite{
         top: 450%;
     }
 
+    #whiteFooterInfo{
+        top: 500%;
+        width: 50%;
+    } 
+
     #footerBlue{
         height: 200px;
         top: 428%;
-        overflow: hidden;  
     }
 
-    footer{
-        position: absolute;
-
-        .__whitefooter>p{
-            z-index: 1;
-            width: 100%;
-            top: 350%;
-        } 
-
-        .infoText{
-            color: white;
-            z-index: 2;
-            top: 400%;
-        }
+    #info>p{
+        z-index: 1;
+        color: white;
+        top: 400%;
+       
     }
+
+
+       
+
+        
    
 }
 
