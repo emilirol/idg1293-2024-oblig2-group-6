@@ -116,29 +116,28 @@
   top: 312%;
 }
 #posterContainer .earthText {
-  position: absolute;
-  z-index: 3;
-  width: 5%;
-  /*.__middle{
-
-  }
-  .__heading{
-
-  }
-  .__middle-bottom{
-
-  }
-  .right{
-      .-bottom{
-
-      }
-      .-top{
-      }
-  }*/
+  z-index: 5;
+  width: 15%;
+  font-weight: 600;
 }
-#posterContainer .earthText .__left > p {
-  top: 312%;
+#posterContainer .left {
+  top: 300%;
   left: 10%;
+}
+#posterContainer .middle {
+  top: 300%;
+}
+#posterContainer .heading {
+  top: 300%;
+}
+#posterContainer .middle-bottom {
+  top: 300%;
+}
+#posterContainer .right .-bottom {
+  top: 350%;
+}
+#posterContainer .right .-top {
+  top: 300%;
 }
 #posterContainer #footerWhite {
   top: 450%;

@@ -133,30 +133,30 @@
     }
 
     .earthText{
-        position: absolute;
-        z-index: 3;
-        width: 5%;
-        .__left>p{
-            top: 312%;
-            left: 10%;
+        z-index: 5;
+        width: 15%;
+        font-weight: 600;
+    }
+    .left{
+        top: 300%;
+        left: 10%;
+    }
+    .middle{
+        top: 300%;
+    }
+    .heading{
+        top: 300%;
+    }
+    .middle-bottom{
+        top: 300%;
+    }
+    .right{
+        .-bottom{
+            top: 350%;
         }
-        /*.__middle{
-            
+        .-top{
+            top: 300%;
         }
-        .__heading{
-            
-        }
-        .__middle-bottom{
-
-        }
-        .right{
-            .-bottom{
-            
-            }
-            .-top{
-            }
-        }*/
-       
     }
 
     #footerWhite{
