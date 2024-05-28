@@ -10,21 +10,48 @@
 <!-- Your implementation of the poster goes here. -->
 <!-- The poster container-->
 <div id="posterContainer">
-  <!--The "header" with the heading h1-->
-  <!--<header>   
-    <h1>Vær en <span>miljø</span>detektiv</h1>
-    <p>Se om du kan finne ut hvor stort karbonfotavtrykk du har</p>
-  </header>
 
-    <div class="blueWave">
+  <!-- The SVGs linked in img tags so they are cached and don't need to be 
+    loaded each time the poster is reloaded-->
+    <img class="poster" id="lightBlueWave" src="assets/img/background-lightblue.svg" alt="light blue wave">
+    <img class="poster" id="blueWave" src="assets/img/background-blue.svg" alt="blue wave">
+    <img class="poster" id="redWave" src="assets/img/background-red.svg" alt="red wave">
+    <img class="poster" id="whiteWave" src="assets/img/background-white.svg" alt="white wave">
+    <img class="poster" id="earth" src="assets/img/earth.svg" alt="the earth">
+    <img class="poster" id="footerWhite" src="assets/img/footer-white.svg" alt="white footer">
+    <img class="poster" id="footerBlue" src="assets/img/footer-blue.svg" alt="blue footer">
+    <img class="poster" id="moon" src="assets/img/moon.svg" alt="moon">
+    <img class="poster" id="starOne" src="assets/img/star-one.svg" alt="star one">
+    <img class="poster" id="starTwo" src="assets/img/star-two.svg" alt="star two">
+    <img class="poster" id="pathToMoon" src="assets/img/path-to-moon.svg" alt="74 turer til månen">
+    <img class="poster" id="car" src="assets/img/car.svg" alt="car">
+    <img class="poster cloud" id="cloud1" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud2" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud3" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud4" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud5" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud6" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud7" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud8" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud9" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud10" src="assets/img/cloud.svg" alt="green cloud">
+    <img class="poster cloud" id="cloud11" src="assets/img/cloud.svg" alt="green cloud">
+    <!--<img class="poster" id="girl" src="assets/img/girl.svg" alt="girl">
+    <img class="poster" id="guyOne" src="assets/img/guy-one.svg" alt="boy one">
+    <img class="poster" id="guyTwo" src="assets/img/guy-two.svg" alt="boy two">
+    <img class="poster" id="QR" src="assets/img/qr-code.svg" alt="qr code">
+    <img id="logo" src="assets/img/ntnu-logo.svg" alt="">-->
+
+  <!--The "header" with the heading h1-->
+    <header>   
+      <h1>Vær en <span>miljø</span>detektiv</h1>
+      <p>Se om du kan finne ut hvor stort karbonfotavtrykk du har</p>
+    </header>
  
-      <div class="textTiktok">
+      <div class="textTiktok__lightblue">
         <p>Hvis 1,1 billioner brukere bruker tiktok i fem minutter, tilsvarer det:</p>
       </div>
-    </div>
-
-  
-    <div class="earth">
+    <!--<div class="earth">
       <div class="earthText__left">
         <p>Unngå å bytte ut telefonen din ofte (det fører til mye e-avfall)</p>
       </div>
@@ -50,46 +77,25 @@
         <p>Reduser lysstyrken på skjermen din</p>
       </div>
     </div>-->
-  <!-- The SVGs linked in img tags so they are cached and don't need to be 
-    loaded each time the poster is reloaded-->
-    <img class="poster" id="lightBlueWave" src="assets/img/background-lightblue.svg" alt="light blue wave">
-    <img class="poster" id="blueWave" src="assets/img/background-blue.svg" alt="blue wave">
-    <img class="poster" id="redWave" src="assets/img/background-red.svg" alt="red wave">
-    <img class="poster" id="whiteWave" src="assets/img/background-white.svg" alt="white wave">
-    <img class="poster" id="earth" src="assets/img/earth.svg" alt="the earth">
-    <!--<img class="poster" id="footerWhite" src="assets/img/footer-white.svg" alt="white footer">
-    <img class="poster" id="footerBlue" src="assets/img/footer-blue.svg" alt="blue footer">
-    <img class="poster" id="girl" src="assets/img/girl.svg" alt="girl">
-    <img class="poster" id="guyOne" src="assets/img/guy-one.svg" alt="boy one">
-    <img class="poster" id="guyTwo" src="assets/img/guy-two.svg" alt="boy two">
-    <img class="poster" id="cloud" src="assets/img/cloud.svg" alt="green cloud">
-    <img class="poster" id="moon" src="assets/img/moon.svg" alt="moon">
-    <img class="poster" id="starOne" src="assets/img/star-one.svg" alt="star one">
-    <img class="poster" id="starTwo" src="assets/img/star-two.svg" alt="star two">
-    <img class="poster" id="pathToMoon" src="assets/img/path-to-moon.svg" alt="74 turer til månen">
-    <img class="poster" id="car" src="assets/img/car.svg" alt="car">
-    <img class="poster" id="QR" src="assets/img/qr-code.svg" alt="qr code">-->
       
   <!--The white and blue footer-->
     <footer>
   <!--The white container information-->
-      <!--<div class="tiktokText">
+      <div class="textTiktok__whitefooter">
         <p>TIKTOK 2.63 gco2e/minutt https://www.comparethemarket.com.au/energy/features/social-carbon-footprint-calculator/ 
-          • Vi forutsetter at å kjøre en bil 1.6km (1 mile) genererer 404g CO2
-          En tur til månen: 96.5T CO2 (tur/retur: 193T CO2)1.1 aktive brukere på TIKTOK i 5 min/dag = 148 til månen, eller  74 turer tur/retur. 
-          • Avstand Jorden–månen: 384399.861 km</p>
-      </div>-->
+            • Vi forutsetter at å kjøre en bil 1.6km (1 mile) genererer 404g CO2
+            En tur til månen: 96.5T CO2 (tur/retur: 193T CO2)1.1 aktive brukere på TIKTOK i 5 min/dag = 148 til månen, eller  74 turer tur/retur. 
+            • Avstand Jorden–månen: 384399.861 km</p>
+      </div>
 
   <!--The blue container information-->
-    <!--<div>
-      <img id="logo" src="assets/img/ntnu-logo.svg" alt="">
       <div class="infoText">
         <p>Last ned plakat:</p>
         <p>https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner</p>
         <p>Kontakt: carlos.vicient@ntnu.no</p>
       </div>
-    </div>
-    </footer>-->
+
+    </footer>
 </div>
 </body>
 </html>
