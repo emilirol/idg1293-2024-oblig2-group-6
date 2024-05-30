@@ -75,19 +75,19 @@ body {
   position: absolute;
 }
 #posterContainer #lightBlueWave {
-  top: 20%;
+  top: 24.3%;
 }
 #posterContainer #blueWave {
   top: 0;
 }
 #posterContainer #redWave {
-  bottom: 18.5%;
+  bottom: 14%;
 }
 #posterContainer #whiteWave {
   top: 0;
 }
 #posterContainer #earth {
-  bottom: 4%;
+  bottom: 2.5%;
 }
 #posterContainer #moon {
   width: 20%;
@@ -116,30 +116,38 @@ body {
 }
 #posterContainer #cloud1 {
   width: 5%;
-  left: 10%;
+  left: 12%;
   top: 50%;
 }
 #posterContainer #cloud2 {
-  width: 5%;
-  left: 12%;
-  top: 48%;
+  width: 4%;
+  left: 26%;
+  top: 50%;
 }
 #posterContainer #cloud3 {
   width: 8%;
-  left: 20%;
+  left: 27%;
   top: 45%;
 }
 #posterContainer #cloud4 {
   width: 5%;
+  left: 35%;
+  top: 55%;
 }
 #posterContainer #cloud5 {
-  width: 5%;
+  width: 3%;
+  left: 35%;
+  top: 50%;
 }
 #posterContainer #cloud6 {
   width: 5%;
+  left: 45%;
+  top: 45%;
 }
 #posterContainer #cloud7 {
-  width: 5%;
+  width: 9%;
+  right: 35%;
+  top: 43%;
 }
 #posterContainer #cloud8 {
   width: 5%;
@@ -152,6 +160,26 @@ body {
 }
 #posterContainer #cloud11 {
   width: 5%;
+}
+#posterContainer #girl {
+  width: 18%;
+  top: 49%;
+  left: 40%;
+}
+#posterContainer #guyOne {
+  width: 20%;
+  top: 51%;
+  right: 18%;
+}
+#posterContainer #guyTwo {
+  width: 20%;
+  top: 54%;
+  left: 14%;
+}
+#posterContainer #QR {
+  width: 10%;
+  left: 2%;
+  bottom: 9%;
 }
 #posterContainer #whiteFooterInfo {
   position: absolute;

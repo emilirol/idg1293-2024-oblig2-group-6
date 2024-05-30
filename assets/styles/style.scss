@@ -25,19 +25,19 @@ body{
 
     // The background svg's
     #lightBlueWave{
-        top: 20%;
+        top: 24.3%;
     }
     #blueWave{
         top: 0;
     }
     #redWave{
-        bottom: 18.5%;
+        bottom: 14%;
     }
     #whiteWave{
         top: 0;
     }
     #earth{
-        bottom: 4%;
+        bottom: 2.5%;
     }
 
 
@@ -95,31 +95,40 @@ body{
   
         #cloud1{
             width: 5%;
-            left: 10%;
+            left: 12%;
             top: 50%;
             }
         #cloud2{
-            width: 5%;
-            left: 12%;
-            top: 48%;
+            width: 4%;
+            left: 26%;
+            top: 50%;
             }
         #cloud3{
             width: 8%;
-            left: 20%;
+            left: 27%;
             top: 45%;
             }
         #cloud4{
             width: 5%;
-            
+            left: 35%;
+            top: 55%;
+
             }
         #cloud5{
-            width: 5%;
+            width: 3%;
+            left: 35%;
+            top: 50%;
+
             }
         #cloud6{
             width: 5%;
+            left: 45%;
+            top: 45%;
             }
         #cloud7{
-            width: 5%;
+            width: 9%;
+            right: 35%;
+            top: 43%;
             }
         #cloud8{
             width: 5%;
@@ -133,6 +142,27 @@ body{
         #cloud11{
             width: 5%;
             }
+
+        #girl{
+           width: 18%; 
+            top: 49%;
+            left: 40%;
+        }
+        #guyOne{
+            width: 20%;
+            top: 51%;
+            right: 18%;
+        }
+        #guyTwo{
+            width: 20%;
+            top: 54%;
+            left: 14%;
+        }
+        #QR{
+            width: 10%;
+            left: 2%;
+            bottom: 9%;
+        }
 
 
     // The poster text
