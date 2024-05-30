@@ -19,26 +19,25 @@ body{
         line-height: 20px;
     }
 
-     // The background svg's
-    #lightBlueWave{
+    img{
         position: absolute;
-        top: 22.5%;
+    }
+
+    // The background svg's
+    #lightBlueWave{
+        top: 20%;
     }
     #blueWave{
-        position: absolute;
         top: 0;
     }
     #redWave{
-        position: absolute;
-        bottom: 16%;
+        bottom: 18.5%;
     }
     #whiteWave{
-        position: absolute;
         top: 0;
     }
     #earth{
-        position: absolute;
-        bottom: 0;
+        bottom: 4%;
     }
 
 
@@ -67,74 +66,74 @@ body{
     }*/
 
     // The svg images
-    .svgImages{
-        position: absolute;
-
         #moon{
             width: 20%;
-            top: 60%;
+            top: 15%;
             right: 15%;
         }
         #starOne{
             width: 8%;
-            top: 50%;
+            top: 10%;
             right: 8%;
         }
         #starTwo{
             width: 5%;
-            top: 85%;
-            right: 6%;
+            top: 17%;
+            right: 5%;
         }
         #pathToMoon{
-            top: 100%;
+            top: 20%;
             left: 0;
             width: 70%;
         }
         
         #car{
             width: 20%;
-            top: 145%;
+            top: 28%;
             right: 36%;
         }
   
-        /*.cloud{
-            position: absolute;
+        #cloud1{
             width: 5%;
-            #cloud1{
+            left: 10%;
+            top: 50%;
+            }
+        #cloud2{
+            width: 5%;
+            left: 12%;
+            top: 48%;
+            }
+        #cloud3{
+            width: 8%;
+            left: 20%;
+            top: 45%;
+            }
+        #cloud4{
+            width: 5%;
+            
+            }
+        #cloud5{
+            width: 5%;
+            }
+        #cloud6{
+            width: 5%;
+            }
+        #cloud7{
+            width: 5%;
+            }
+        #cloud8{
+            width: 5%;
+            }
+        #cloud9{
+            width: 5%;
+            }
+        #cloud10{
+            width: 5%;
+            }
+        #cloud11{
+            width: 5%;
+            }
 
-            }
-            #cloud2{
-        
-            }
-            #cloud3{
-        
-            }
-            #cloud4{
-        
-            }
-            #cloud5{
-        
-            }
-            #cloud6{
-        
-            }
-            #cloud7{
-        
-            }
-            #cloud8{
-        
-            }
-            #cloud9{
-        
-            }
-            #cloud10{
-        
-            }
-            #cloud11{
-        
-            }
-        }*/
-}
 
     // The poster text
     /*.lightblue{
@@ -176,7 +175,14 @@ body{
         position: absolute;
         background-color: white;
         width: 100%;
+        height: 40px;
         bottom: 5%;
+        p{
+            width: 90%;
+            display: flex;
+            font-size: 0.8rem;
+
+        }
     } 
     #info{
         position: absolute;
@@ -185,6 +191,7 @@ body{
         bottom: 0;
         p{
             color: white;
+
         }
     }
 
