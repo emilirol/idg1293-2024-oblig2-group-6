@@ -71,9 +71,25 @@ body {
   font-size: 1rem;
   line-height: 20px;
 }
-#posterContainer .poster {
-  width: 100%;
+#posterContainer #lightBlueWave {
   position: absolute;
+  top: 22.5%;
+}
+#posterContainer #blueWave {
+  position: absolute;
+  top: 0;
+}
+#posterContainer #redWave {
+  position: absolute;
+  bottom: 16%;
+}
+#posterContainer #whiteWave {
+  position: absolute;
+  top: 0;
+}
+#posterContainer #earth {
+  position: absolute;
+  bottom: 0;
 }
 #posterContainer .svgImages {
   position: absolute;

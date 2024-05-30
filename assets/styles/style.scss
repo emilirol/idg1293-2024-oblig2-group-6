@@ -19,14 +19,29 @@ body{
         line-height: 20px;
     }
 
-    .poster{
-        width: 100%;
+     // The background svg's
+    #lightBlueWave{
         position: absolute;
-
-        // The background svg's
-        
-
+        top: 22.5%;
     }
+    #blueWave{
+        position: absolute;
+        top: 0;
+    }
+    #redWave{
+        position: absolute;
+        bottom: 16%;
+    }
+    #whiteWave{
+        position: absolute;
+        top: 0;
+    }
+    #earth{
+        position: absolute;
+        bottom: 0;
+    }
+
+
 
   
     // The "header" with the h1 text in blue and green
