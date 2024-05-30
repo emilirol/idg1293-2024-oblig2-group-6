@@ -1,17 +1,64 @@
+<<<<<<< Updated upstream
+=======
+// Set the width and height of the body so every element is placed inside this heigth and width. 
+body{
+    max-width: 800px;
+    height: 1200px;
+}
+
+// The full poster container
+>>>>>>> Stashed changes
 #posterContainer{
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+<<<<<<< Updated upstream
     width: 900px;
     height: 1300px;
 
     #whiteWave{
+=======
+    
+    // All general text on the poster
+    p{
+        position: absolute;
+        font-family: "marydale", sans-serif;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .poster{
+        position: absolute;
+        max-width: 100%;
+    }
+    
+    // The backrounds svg's
+
+    #whiteWave{
+        position: relative;
+        top: 0;
+        
+    }
+    #lightBlueWave{
+        top: 98%;
+    }
+    #redWave{
+        top: 254%;
+    }
+
+    #earth{
+        top: 310%;
+    }
+
+    // The "header" with the blue and green h1
+    header{
+>>>>>>> Stashed changes
         position: absolute;
         z-index: 1;
     }
 
+<<<<<<< Updated upstream
     #blueWave{
         position: absolute;
         top: 0;
@@ -47,6 +94,114 @@
         bottom: 0;
         max-height: 60px;
     }
+=======
+    // The svg images 
+    #moon{
+        width: 20%;
+        top: 60%;
+        right: 15%;
+    }
+    #starOne{
+        width: 8%;
+        top: 50%;
+        right: 8%;
+    }
+    #starTwo{
+        width: 5%;
+        top: 85%;
+        right: 6%;
+    }
+
+    #pathToMoon{
+        top: 100%;
+        left: 0;
+        width: 70%;
+    }
+    #car{
+        width: 20%;
+        top: 145%;
+        right: 36%;
+    }
+
+    /*.cloud{
+        width: 5%;
+        #cloud1{
+
+        }
+        #cloud2{
+    
+        }
+        #cloud3{
+    
+        }
+        #cloud4{
+    
+        }
+        #cloud5{
+    
+        }
+        #cloud6{
+    
+        }
+        #cloud7{
+    
+        }
+        #cloud8{
+    
+        }
+        #cloud9{
+    
+        }
+        #cloud10{
+    
+        }
+        #cloud11{
+    
+        }
+    }*/
+
+    // The "main info text" on the poster. The text on the ligthblue wave and earth
+    .main__text{
+        position: absolute;
+        z-index: 5;
+
+        .lightblue{
+            color: white;
+            width: 35%;
+            }
+        
+        .earthText{
+            p{
+                font-weight: 600;
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+        
+            
+    }
+    
+    // The "footers" with the Tiktok info and contact info
+    #whitefooter{
+        position: absolute;
+        background-color: white;
+        height: 100px;
+        z-index: 1
+
+    }
+    #bluefooter{
+        position: absolute;
+        background-color: #005ba7;
+        height: 160px;
+        width: 100%;
+        p{
+            color: white;
+        }
+    }
+
+   
+>>>>>>> Stashed changes
 }
 
 p{

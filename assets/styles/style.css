@@ -1,11 +1,65 @@
+body {
+  max-width: 800px;
+  height: 1200px;
+}
+
 #posterContainer {
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+<<<<<<< Updated upstream
   width: 900px;
   height: 1300px;
+=======
+  /*.cloud{
+      width: 5%;
+      #cloud1{
+
+      }
+      #cloud2{
+
+      }
+      #cloud3{
+
+      }
+      #cloud4{
+
+      }
+      #cloud5{
+
+      }
+      #cloud6{
+
+      }
+      #cloud7{
+
+      }
+      #cloud8{
+
+      }
+      #cloud9{
+
+      }
+      #cloud10{
+
+      }
+      #cloud11{
+
+      }
+  }*/
+}
+#posterContainer p {
+  position: absolute;
+  font-family: "marydale", sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+}
+#posterContainer .poster {
+  position: absolute;
+  max-width: 100%;
+>>>>>>> Stashed changes
 }
 #posterContainer #whiteWave {
   position: absolute;
@@ -16,6 +70,7 @@
   top: 0;
 }
 #posterContainer #lightBlueWave {
+<<<<<<< Updated upstream
   position: absolute;
   top: 20%;
 }
@@ -115,5 +170,84 @@ footer .infoText {
   bottom: 0;
 }
 footer .infoText > p {
+=======
+  top: 98%;
+}
+#posterContainer #redWave {
+  top: 254%;
+}
+#posterContainer #earth {
+  top: 310%;
+}
+#posterContainer header {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 30%;
+}
+#posterContainer header h1 {
+  margin-bottom: 20px;
+  font-family: "open-sans", sans-serif;
+  font-size: 3rem;
+  color: #005ba7;
+  font-weight: 700;
+  line-height: 50px;
+}
+#posterContainer header h1 span {
+  color: rgb(1, 150, 1);
+}
+#posterContainer #moon {
+  width: 20%;
+  top: 60%;
+  right: 15%;
+}
+#posterContainer #starOne {
+  width: 8%;
+  top: 50%;
+  right: 8%;
+}
+#posterContainer #starTwo {
+  width: 5%;
+  top: 85%;
+  right: 6%;
+}
+#posterContainer #pathToMoon {
+  top: 100%;
+  left: 0;
+  width: 70%;
+}
+#posterContainer #car {
+  width: 20%;
+  top: 145%;
+  right: 36%;
+}
+#posterContainer .main__text {
+  position: absolute;
+  z-index: 5;
+}
+#posterContainer .main__text .lightblue {
+  color: white;
+  width: 35%;
+}
+#posterContainer .main__text .earthText p {
+  font-weight: 600;
+}
+#posterContainer .main__text .earthText h2 {
+  font-size: 2rem;
+}
+#posterContainer #whitefooter {
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  z-index: 1;
+}
+#posterContainer #bluefooter {
+  position: absolute;
+  background-color: #005ba7;
+  height: 160px;
+  width: 100%;
+}
+#posterContainer #bluefooter p {
+>>>>>>> Stashed changes
   color: white;
 }/*# sourceMappingURL=style.css.map */
