@@ -1,5 +1,5 @@
 body {
-  max-width: 800px;
+  width: 800px;
   height: 1200px;
 }
 
@@ -63,17 +63,6 @@ body {
       .-top{
           top: 300%;
       }
-  }
-
-  #whiteFooterInfo{
-      top: 500%;
-      width: 50%;
-  } 
-  #info>p{
-      z-index: 1;
-      color: white;
-      top: 400%;
-
   }*/
 }
 #posterContainer p {
@@ -83,8 +72,8 @@ body {
   line-height: 20px;
 }
 #posterContainer .poster {
-  height: 100%;
   width: 100%;
+  position: absolute;
 }
 #posterContainer .svgImages {
   position: absolute;
@@ -150,4 +139,19 @@ body {
   width: 20%;
   top: 145%;
   right: 36%;
+}
+#posterContainer #whiteFooterInfo {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  bottom: 5%;
+}
+#posterContainer #info {
+  position: absolute;
+  width: 100%;
+  background-color: #0C5BA9;
+  bottom: 0;
+}
+#posterContainer #info p {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
