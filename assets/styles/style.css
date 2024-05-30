@@ -201,4 +201,13 @@ body {
 }
 #posterContainer #info p {
   color: white;
+}
+#posterContainer #info #logo {
+  padding-right: 15px;
+  width: 40%;
+  border-right: white solid;
+}
+#posterContainer #info p:nth-of-type(3) {
+  padding-left: 15px;
+  border-left: white solid;
 }/*# sourceMappingURL=style.css.map */
