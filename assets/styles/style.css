@@ -63,11 +63,27 @@ body {
   width: 8%;
   top: 10%;
   right: 8%;
+  animation: halo-animation 3s linear infinite;
 }
 #posterContainer #starTwo {
   width: 5%;
   top: 17%;
   right: 5%;
+  animation: halo-animation 2s linear infinite;
+}
+@keyframes halo-animation {
+  0% {
+    opacity: 1;
+    r: 15;
+  }
+  50% {
+    opacity: 0.5;
+    r: 20;
+  }
+  100% {
+    opacity: 1;
+    r: 15;
+  }
 }
 #posterContainer #pathToMoon {
   top: 20%;
@@ -83,56 +99,75 @@ body {
   width: 5%;
   left: 12%;
   top: 50%;
+  animation: scale-up 3s forwards infinite;
 }
 #posterContainer #cloud2 {
   width: 4%;
   left: 26%;
   top: 50%;
+  animation: scale-up 2s forwards infinite;
 }
 #posterContainer #cloud3 {
   width: 8%;
   left: 27%;
   top: 45%;
+  animation: scale-up 4s forwards infinite;
 }
 #posterContainer #cloud4 {
   width: 5%;
   left: 35%;
   top: 55%;
+  animation: scale-up 2s forwards infinite;
 }
 #posterContainer #cloud5 {
   width: 3%;
   left: 35%;
   top: 50%;
+  animation: scale-up 3s forwards infinite;
 }
 #posterContainer #cloud6 {
   width: 5%;
   left: 45%;
   top: 45%;
+  animation: scale-up 3s forwards infinite;
 }
 #posterContainer #cloud7 {
   width: 9%;
   right: 35%;
   top: 43%;
+  animation: scale-up 4s forwards infinite;
 }
 #posterContainer #cloud8 {
   width: 6%;
   right: 20%;
   top: 42%;
+  animation: scale-up 2s forwards infinite;
 }
 #posterContainer #cloud9 {
   width: 4%;
   right: 21%;
   top: 48%;
+  animation: scale-up 4s forwards infinite;
 }
 #posterContainer #cloud10 {
   width: 4%;
   right: 14%;
   top: 47%;
+  animation: scale-up 3s forwards infinite;
 }
 #posterContainer #cloud11 {
   width: 4%;
   right: 13%;
   top: 52%;
+  animation: scale-up 2s forwards infinite;
+}
+@keyframes scale-up {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5); /* Scale to 1.5 times the original size */
+  }
 }
 #posterContainer #girl {
   width: 18%;

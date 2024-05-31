@@ -74,16 +74,35 @@ body{
             top: 15%;
             right: 15%;
         }
+    
         #starOne{
             width: 8%;
             top: 10%;
             right: 8%;
+            animation: halo-animation 3s linear infinite;
+            
         }
         #starTwo{
             width: 5%;
             top: 17%;
             right: 5%;
+            animation: halo-animation 2s linear infinite;
         }
+    // Using keyframes with halo-animations so it looks like the stars is blinking
+        @keyframes halo-animation {
+            0% {
+              opacity: 1;
+              r: 15;
+            }
+            50% {
+              opacity: 0.5;
+              r: 20;
+            }
+            100% {
+              opacity: 1;
+              r: 15;
+            }
+          }
         #pathToMoon{
             top: 20%;
             left: 0;
@@ -100,59 +119,77 @@ body{
             width: 5%;
             left: 12%;
             top: 50%;
+            animation: scale-up 3s forwards infinite;
             }
         #cloud2{
             width: 4%;
             left: 26%;
             top: 50%;
+            animation: scale-up 2s forwards infinite;
             }
         #cloud3{
             width: 8%;
             left: 27%;
             top: 45%;
+            animation: scale-up 4s forwards infinite;
             }
         #cloud4{
             width: 5%;
             left: 35%;
             top: 55%;
-
+            animation: scale-up 2s forwards infinite;
             }
         #cloud5{
             width: 3%;
             left: 35%;
             top: 50%;
-
+            animation: scale-up 3s forwards infinite;
             }
         #cloud6{
             width: 5%;
             left: 45%;
             top: 45%;
+            animation: scale-up 3s forwards infinite;
             }
         #cloud7{
             width: 9%;
             right: 35%;
             top: 43%;
+            animation: scale-up 4s forwards infinite;
             }
         #cloud8{
             width: 6%;
             right: 20%;
             top: 42%;
+            animation: scale-up 2s forwards infinite;
             }
         #cloud9{
             width: 4%;
             right: 21%;
             top: 48%;
+            animation: scale-up 4s forwards infinite;
             }
         #cloud10{
             width: 4%;
             right: 14%;
             top: 47%;
+            animation: scale-up 3s forwards infinite;
             }
         #cloud11{
             width: 4%;
             right: 13%;
             top: 52%;
+            animation: scale-up 2s forwards infinite;
             }
+        // Using keyframes scale to it looks like the "clouds" are scaling ut and then popping
+        @keyframes scale-up {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.5); /* Scale to 1.5 times the original size */
+            }
+        }    
 
         #girl{
            width: 18%; 
