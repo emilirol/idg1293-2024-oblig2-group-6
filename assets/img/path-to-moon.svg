@@ -19,7 +19,7 @@
       }
     </style>
   </defs>
-  <g id="Layer_3" data-name="Layer 3">
+  <g id="Layer_3" data-name="Layer 3">  
     <text class="cls-2" transform="translate(115.68 594.26) rotate(-61.38)"><tspan x="0" y="0">7</tspan></text>
     <text class="cls-2" transform="translate(142.51 543.93) rotate(-47.52)"><tspan x="0" y="0">4</tspan></text>
     <text class="cls-1" transform="translate(183.29 501.86) rotate(-39.07)"><tspan x="0" y="0"> </tspan></text>
@@ -49,5 +49,6 @@
     <text class="cls-3" transform="translate(576.17 388.13) rotate(-12.81)"><tspan x="0" y="0">a</tspan></text>
     <text class="cls-3" transform="translate(598.21 383.11) rotate(-13.83)"><tspan x="0" y="0">k</tspan></text>
     <text class="cls-3" transform="translate(619.69 377.82) rotate(-14.99)"><tspan x="0" y="0">e</tspan></text>
+   
   </g>
 </svg>

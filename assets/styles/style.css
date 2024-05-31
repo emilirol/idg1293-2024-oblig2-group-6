@@ -280,6 +280,46 @@ body {
   font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-size: 0.53rem;
 }
+#posterContainer #earthEyeLeft {
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  width: 10%;
+  height: 15%;
+  bottom: 2%;
+  left: 30%;
+}
+#posterContainer #earthEyeLeft::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 40%;
+  height: 45%;
+  bottom: 50%;
+  left: 40%;
+  z-index: 2;
+}
+#posterContainer #earthEyeRight {
+  position: absolute;
+  background-color: black;
+  border-radius: 100%;
+  width: 10%;
+  height: 15%;
+  right: 28%;
+  bottom: 2%;
+}
+#posterContainer #earthEyeRight::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 40%;
+  height: 45%;
+  bottom: 50%;
+  right: 22%;
+  z-index: 3;
+}
 
 @media (max-width: 1600px) {
   #posterContainer {
