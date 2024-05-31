@@ -1,17 +1,20 @@
-// Set thr width and height in body. The elements in the poster is then placed in this space
+// Set the width and height in body. The elements in the poster is then placed in this space
 body{
-    width: 800px;
-    height: 1200px;
+    width: 100%;
+    height: 100%;
+   
 }
 
 // The main poster cointainer
 #posterContainer{
+    margin: 0 auto;
+    border: solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    height: 100%;
-    width: 100%;
+    width: 800px;
+    height: 1200px;
     p{
         margin: 0;
         font-family: "marydale", sans-serif;
@@ -131,16 +134,24 @@ body{
             top: 43%;
             }
         #cloud8{
-            width: 5%;
+            width: 6%;
+            right: 20%;
+            top: 42%;
             }
         #cloud9{
-            width: 5%;
+            width: 4%;
+            right: 21%;
+            top: 48%;
             }
         #cloud10{
-            width: 5%;
+            width: 4%;
+            right: 14%;
+            top: 47%;
             }
         #cloud11{
-            width: 5%;
+            width: 4%;
+            right: 13%;
+            top: 52%;
             }
 
         #girl{
@@ -241,3 +252,32 @@ body{
    
 }
 
+@media (max-width: 1600px) {
+    #posterContainer {
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 1200px) {
+    #posterContainer {
+        transform: scale(0.4);
+    }
+}
+
+@media (max-width: 800px) {
+    #posterContainer {
+        transform: scale(0.3);
+    }
+}
+
+@media (max-width: 600px) {
+    #posterContainer {
+        transform: scale(0.2);
+    }
+}
+
+@media (max-width: 400px) {
+    #posterContainer {
+        transform: scale(0.1);
+    }
+}
