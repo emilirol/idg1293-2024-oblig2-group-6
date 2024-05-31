@@ -15,7 +15,7 @@ body {
 }
 #posterContainer p {
   margin: 0;
-  font-family: "marydale", sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   font-size: 1rem;
   line-height: 20px;
 }
@@ -198,18 +198,29 @@ body {
 #posterContainer #whiteFooterInfo p {
   width: 90%;
   display: flex;
-  font-size: 0.8rem;
+  justify-content: space-evenly;
+  font-size: 0.53rem;
+  font-weight: 600;
+  margin: 0 auto;
 }
 #posterContainer #info {
   position: absolute;
   width: 100%;
+  height: 58px;
   background-color: #0C5BA9;
   bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 #posterContainer #info p {
   color: white;
+  font-size: 0.53rem;
+  padding: 20px 0;
 }
 #posterContainer #info #logo {
+  left: 0;
   padding-right: 15px;
   width: 40%;
   border-right: white solid;
@@ -217,6 +228,12 @@ body {
 #posterContainer #info p:nth-of-type(3) {
   padding-left: 15px;
   border-left: white solid;
+}
+#posterContainer #info a {
+  text-decoration: none;
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  font-size: 0.53rem;
 }
 
 @media (max-width: 1600px) {

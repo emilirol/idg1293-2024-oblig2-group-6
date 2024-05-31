@@ -6,7 +6,7 @@
 
       .cls-1, .cls-2, .cls-3 {
         fill: #231f20;
-        font-family: 'Marydale-bold', sans-serif;
+        font-family:"Comic Sans MS", "Comic Sans", sans-serif;
         font-weight: 600;
       }
 
