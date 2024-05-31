@@ -20,6 +20,7 @@ body{
         font-family:"Comic Sans MS", "Comic Sans", sans-serif;
         font-size: 1rem;
         line-height: 20px;
+        font-weight: 600;
     }
 
     img{
@@ -183,34 +184,38 @@ body{
         p{
             color: white;
             width: 60%;
-            }
+            }  
+    }
 
-        /*.earthText{
-            z-index: 5;
-            width: 15%;
-            font-weight: 600;
-        }
-        .left{
-            top: 300%;
-            left: 10%;
-        }
-        .middle{
-            top: 300%;
-        }
-        .heading{
-            top: 300%;
-        }
-        .middle-bottom{
-            top: 300%;
-        }
-        .right{
-            .-bottom{
-                top: 350%;
-            }
-            .-top{
-                top: 300%;
-            }
-        }*/
+    #heading{
+        position: absolute;
+        font-family:"Comic Sans MS", "Comic Sans", sans-serif;
+        font-size: 2rem;
+        top: 75%;
+    }
+    #left{
+        position: absolute;
+        font-size: 0.8rem;
+        width: 15%;
+        top: 74%;
+        left: 11%;
+    }
+    #middle{
+        position: absolute;
+        width: 14%;
+        bottom: 28%;
+        right: 40%;
+        font-size: 0.8rem;
+    }
+    #middle-bottom{
+        position: absolute;
+        width: 15%;
+        left: 47%;
+        bottom: 11%;
+        font-size: 0.8rem;
+    }
+    #right-top{
+        
     }
 
     #whiteFooterInfo{
