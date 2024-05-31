@@ -187,6 +187,10 @@ body{
             }  
     }
 
+    .earthText{
+        font-size: 0.8rem;
+        position: absolute;
+    }
     #heading{
         position: absolute;
         font-family:"Comic Sans MS", "Comic Sans", sans-serif;
@@ -194,28 +198,29 @@ body{
         top: 75%;
     }
     #left{
-        position: absolute;
-        font-size: 0.8rem;
         width: 15%;
         top: 74%;
         left: 11%;
     }
     #middle{
-        position: absolute;
         width: 14%;
         bottom: 28%;
         right: 40%;
-        font-size: 0.8rem;
     }
     #middle-bottom{
-        position: absolute;
-        width: 15%;
+        width: 12%;
         left: 47%;
         bottom: 11%;
-        font-size: 0.8rem;
     }
-    #right-top{
-        
+    #rigth-top{
+        width: 10%;
+        bottom: 15%;
+        right: 2%;
+    }
+    #rigth-bottom{
+        width: 11%;
+        bottom: 9%;
+        right: 1%;
     }
 
     #whiteFooterInfo{
