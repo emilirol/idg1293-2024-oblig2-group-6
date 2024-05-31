@@ -256,6 +256,19 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+#posterContainer #info .info_poster {
+  padding: 20px 10px;
+  flex-direction: column;
+  border-right: white solid;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  font-size: 0.53rem;
+  display: flex;
+  align-items: flex-end;
+}
+#posterContainer #info .info_poster a {
+  text-decoration: none;
+  color: white;
+}
 #posterContainer #info p {
   color: white;
   font-size: 0.53rem;
@@ -267,21 +280,6 @@ body {
   width: 30%;
   height: 50px;
   padding: 20px 15px;
-}
-#posterContainer #info p:nth-of-type(1),
-#posterContainer #info a {
-  padding: 20px 10px;
-  flex-direction: column;
-}
-#posterContainer #info a {
-  text-decoration: none;
-  color: white;
-  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
-  font-size: 0.53rem;
-  border-right: white solid;
-}
-#posterContainer #info p:nth-of-type(2) {
-  padding: 20px 10px;
 }
 #posterContainer #earthEyeLeft {
   position: absolute;
