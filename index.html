@@ -22,7 +22,7 @@
     <img id="starOne" src="assets/img/star-one.svg" alt="star one">
     <img id="starTwo" src="assets/img/star-two.svg" alt="star two">
     <img id="pathToMoon" src="assets/img/path-to-moon.svg" alt="74 turer til månen">
-    <img id="car" src="assets/img/car.svg" alt="car">
+    <!--<img id="car" src="assets/img/car.svg" alt="car">-->
     <img id="cloud1" src="assets/img/cloud.svg" alt="green cloud">
     <img id="cloud2" src="assets/img/cloud.svg" alt="green cloud">
     <img id="cloud3" src="assets/img/cloud.svg" alt="green cloud">
@@ -50,6 +50,19 @@
       <div class="text lightblue">
         <p >Hvis 1,1 billioner brukere bruker tiktok i fem minutter, tilsvarer det:</p>
       </div>
+
+    <!--The car svg with SMIL path animation-->
+      <svg id="svgPath" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 917.27 300">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <path id="myPath" d="M1.45,125.07c44.75.46,89.51-4.16,133.21-13.85,21.77-4.83,43.27-10.91,64.35-18.21,15.29-5.3,31.37-11.78,42.4-24.15,10.51-11.78,12.04-27.35,2.98-40.55s-23.29-21.43-38.06-25.45c-29.26-7.96-64.2.75-83.32,25.13-9.04,11.52-15.24,30.05-4.22,42.4,5.67,6.35,14.32,9.02,22.22,11.37,10.73,3.19,21.65,5.74,32.66,7.76,44.26,8.12,89.62,8.17,134.47,8.61,95.47.93,190.96-1.03,286.42-2.24,95.53-1.22,191.06-2.44,286.59-3.65,11.56-.15,23.12-.29,34.68-.44,1.93-.02,1.93-3.02,0-3-89.75,1.14-179.5,2.29-269.25,3.43-89.71,1.14-179.43,2.74-269.15,3.08-44.02.17-88.13.35-132.12-1.48-21.44-.9-42.88-2.54-64.07-6.01-10.76-1.77-21.44-4-31.97-6.82-8.87-2.38-19.36-4.57-26.44-10.81-15.28-13.46-2.83-36.22,8.92-47.25s25.96-16.95,41.13-19.11c15.43-2.2,31.71-.06,45.73,6.86s31.24,21.76,28.76,39.78c-2.2,15.95-18.02,26.29-31.35,32.67-17.95,8.59-37.98,13.93-57.14,19.08-41.3,11.09-83.81,17.62-126.53,19.41-10.29.43-20.58.57-30.87.46-1.93-.02-1.93,2.98,0,3h0Z"
+          fill="none" stroke="none"/>
+          <image href="assets/img/car.svg" width="100px" height="110px">
+          <animateMotion repeatCount="indefinite" dur="6s" keyPoints="0;1" keyTimes="0;1">
+            <mpath href="#myPath" />
+          </animateMotion>
+          </image>
+        </g>
+      </svg>
     
     <!--The "earth text"-->
       <p class="earthText" id="left">Unngå å bytte ut telefonen din ofte (det fører til mye e-avfall)</p>

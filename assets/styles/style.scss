@@ -44,9 +44,6 @@ body{
         bottom: 2.5%;
     }
 
-
-
-  
     // The "header" with the h1 text in blue and green
     header{
         position: absolute;
@@ -108,11 +105,11 @@ body{
             left: 0;
             width: 70%;
         }
-        
-        #car{
-            width: 20%;
-            top: 28%;
-            right: 36%;
+
+        #svgPath{
+            position: absolute;
+            top: 22%;
+
         }
   
         #cloud1{
