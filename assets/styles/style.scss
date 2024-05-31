@@ -47,9 +47,8 @@ body{
 
   
     // The "header" with the h1 text in blue and green
-    /*header{
+    header{
         position: absolute;
-        top: 5%;
         left: 5%;
         width: 30%;
 
@@ -66,7 +65,7 @@ body{
             }
         }
 
-    }*/
+    }
 
     // The svg images
         #moon{
@@ -177,40 +176,43 @@ body{
 
 
     // The poster text
-    /*.lightblue{
-        z-index: 1;
-        color: white;
-        width: 35%;
-        top: 105%;
+    .text{
+        position: absolute;
+        top: 21%;
         left: 5%;
-        }
+        p{
+            color: white;
+            width: 60%;
+            
+            }
 
-    .earthText{
-        z-index: 5;
-        width: 15%;
-        font-weight: 600;
-    }
-    .left{
-        top: 300%;
-        left: 10%;
-    }
-    .middle{
-        top: 300%;
-    }
-    .heading{
-        top: 300%;
-    }
-    .middle-bottom{
-        top: 300%;
-    }
-    .right{
-        .-bottom{
-            top: 350%;
+        /*.earthText{
+            z-index: 5;
+            width: 15%;
+            font-weight: 600;
         }
-        .-top{
+        .left{
+            top: 300%;
+            left: 10%;
+        }
+        .middle{
             top: 300%;
         }
-    }*/
+        .heading{
+            top: 300%;
+        }
+        .middle-bottom{
+            top: 300%;
+        }
+        .right{
+            .-bottom{
+                top: 350%;
+            }
+            .-top{
+                top: 300%;
+            }
+        }*/
+    }
 
     #whiteFooterInfo{
         position: absolute;

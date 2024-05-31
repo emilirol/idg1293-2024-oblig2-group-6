@@ -12,60 +12,6 @@ body {
   position: relative;
   width: 800px;
   height: 1200px;
-  /*header{
-      position: absolute;
-      top: 5%;
-      left: 5%;
-      width: 30%;
-
-      h1{
-          margin-bottom: 20px;
-          font-family: "open-sans", sans-serif;
-          font-size: 3rem;
-          color: #005ba7;
-          font-weight: 700;
-          line-height: 50px;
-
-          span{
-              color: rgb(1, 150, 1);
-          }
-      }
-
-  }*/
-  /*.lightblue{
-      z-index: 1;
-      color: white;
-      width: 35%;
-      top: 105%;
-      left: 5%;
-      }
-
-  .earthText{
-      z-index: 5;
-      width: 15%;
-      font-weight: 600;
-  }
-  .left{
-      top: 300%;
-      left: 10%;
-  }
-  .middle{
-      top: 300%;
-  }
-  .heading{
-      top: 300%;
-  }
-  .middle-bottom{
-      top: 300%;
-  }
-  .right{
-      .-bottom{
-          top: 350%;
-      }
-      .-top{
-          top: 300%;
-      }
-  }*/
 }
 #posterContainer p {
   margin: 0;
@@ -90,6 +36,22 @@ body {
 }
 #posterContainer #earth {
   bottom: 2.5%;
+}
+#posterContainer header {
+  position: absolute;
+  left: 5%;
+  width: 30%;
+}
+#posterContainer header h1 {
+  margin-bottom: 20px;
+  font-family: "open-sans", sans-serif;
+  font-size: 3rem;
+  color: #005ba7;
+  font-weight: 700;
+  line-height: 50px;
+}
+#posterContainer header h1 span {
+  color: rgb(1, 150, 1);
 }
 #posterContainer #moon {
   width: 20%;
@@ -190,6 +152,41 @@ body {
   width: 10%;
   left: 2%;
   bottom: 9%;
+}
+#posterContainer .text {
+  position: absolute;
+  top: 21%;
+  left: 5%;
+  /*.earthText{
+      z-index: 5;
+      width: 15%;
+      font-weight: 600;
+  }
+  .left{
+      top: 300%;
+      left: 10%;
+  }
+  .middle{
+      top: 300%;
+  }
+  .heading{
+      top: 300%;
+  }
+  .middle-bottom{
+      top: 300%;
+  }
+  .right{
+      .-bottom{
+          top: 350%;
+      }
+      .-top{
+          top: 300%;
+      }
+  }*/
+}
+#posterContainer .text p {
+  color: white;
+  width: 60%;
 }
 #posterContainer #whiteFooterInfo {
   position: absolute;
