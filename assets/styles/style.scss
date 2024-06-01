@@ -358,6 +358,7 @@ body{
     }
 }
 
+// Used media queries for a scaleable poster
 @media (max-width: 1600px) {
     #posterContainer {
         transform: scale(0.5);
