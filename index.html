@@ -3,124 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IDG1293-2024 Oblig 2</title>
+  <title>IDG1293-2024 Oblig 2 - portofolio</title>
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-  <!-- Your implementation of the poster goes here. -->
-  <main>
+<!-- Your implementation of the poster goes here. -->
+<!-- The poster container-->
+<div id="posterContainer">
+
+  <!-- The SVGs linked in img tags so they are cached and don't need to be 
+    loaded each time the poster is reloaded-->
+    <img id="lightBlueWave" src="assets/img/background-lightblue.svg" alt="light blue wave">
+    <img id="blueWave" src="assets/img/background-blue.svg" alt="blue wave">
+    <img id="redWave" src="assets/img/background-red.svg" alt="red wave">
+    <img id="whiteWave" src="assets/img/background-white.svg" alt="white wave">
+    <img id="earth" src="assets/img/earth.svg" alt="the earth">
+    <img id="moon" src="assets/img/moon.svg" alt="moon">
+    <img id="starOne" src="assets/img/star-one.svg" alt="star one">
+    <img id="starTwo" src="assets/img/star-two.svg" alt="star two">
+    <img id="pathToMoon" src="assets/img/path-to-moon.svg" alt="74 turer til månen">
+    <!--<img id="car" src="assets/img/car.svg" alt="car">-->
+    <img id="cloud1" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud2" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud3" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud4" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud5" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud6" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud7" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud8" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud9" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud10" src="assets/img/cloud.svg" alt="green cloud">
+    <img id="cloud11" src="assets/img/cloud.svg" alt="green cloud">
+    <!--Used SMIL animation inside the svg for the "guy one" and "guy two". Looks
+    like guy one is dansing and guy two "headbanging" -->
+    <img id="girl" src="assets/img/girl.svg" alt="girl">
+    <img id="guyOne" src="assets/img/guy-one.svg" alt="boy one">
+    <img id="guyTwo" src="assets/img/guy-two.svg" alt="boy two">
+    <img id="QR" src="assets/img/qr-code.svg" alt="qr code">
     
-    <div class="background__white--path">
-        <div class="postertext__h1">
-          <h1>Vær en <br> <span>miljø</span>detektiv</h1>
-          <p class="postertext__h1--p">Se om du kan finne ut av hvor stort <br>karbonfotavtrykk du har</p>
-        </div>
-        <div class="background__white--path1"></div>
-          <img class="star--1" src="assets/StarOne.svg" alt="">
-          <img class="star--2" src="assets/StarTwo.svg" alt="">
+  <!--The "header" with the heading h1-->
+    <header>   
+      <h1>Vær en <span>miljø</span>detektiv</h1>
+      <p>Se om du kan finne ut hvor stort karbonfotavtrykk du har</p>
+    </header>
+ 
+      <div class="text lightblue">
+        <p >Hvis 1,1 billioner brukere bruker tiktok i fem minutter, tilsvarer det:</p>
       </div>
-      
-      
-    </div>
-      <div class="background__blue--path">
-        <div class="postertext">
-          <p>Hvis 1,1 billioner brukere bruker tiktok i <br> fem minutter, tilsvarer det:</p>
-        </div>
-        <svg class="background" width="2000" heigth="1200" viewbox="0 0 2000 1200">
-          <circle class="poster__element--moon" cx="1500" cy="250" r="230"/>
-          <ellipse class="poster__element--mooneyes" cx="1400" cy="250" rx="50" ry="60">
-            <animate attributeName="cx" dur="2s" repeatCount="indefinite" values="1400; 1430; 1400" />
-          </ellipse>
-          <ellipse class="poster__element--mooneyes" cx="1600" cy="250" rx="50" ry="60">
-            <animate attributeName="cx" dur="2s" repeatCount="indefinite" values="1600; 1630; 1600" />
-          </ellipse>
-          <ellipse class="poster__element--mooneyes" cx="1610" cy="250" rx="20" ry="30" style="fill:white">
-            <animate attributeName="cx" dur="2s" repeatCount="indefinite" values="1610; 1630; 1610" />
-          </ellipse>
-          <ellipse class="poster__element--mooneyes" cx="1410" cy="250" rx="20" ry="30" style="fill:white">
-            <animate attributeName="cx" dur="2s" repeatCount="indefinite" values="1410; 1430; 1410" />
-          </ellipse>
-          <ellipse class="poster__element--mooneyes" cx="1570" cy="260" rx="10" ry="15" style="fill:white">
-            <animate attributeName="cx" dur="2s" repeatCount="indefinite" values="1570; 1590; 1570" />
-          </ellipse>
-          <ellipse class="poster__element--mooneyes" cx="1370" cy="260" rx="10" ry="15" style="fill:white">
-            <animate attributeName="cx" dur="2s" repeatCount="indefinite" values="1370; 1390; 1370" />
-          </ellipse>
-        </svg>
-        <div class="background__white--path2"></div>
-      </div>
-  
+
+    <!--The car svg with SMIL path animation-->
+      <svg id="svgPath" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 917.27 300">
+        <g id="Layer_1-2" data-name="Layer 1">
+          <path id="myPath" d="M1.45,125.07c44.75.46,89.51-4.16,133.21-13.85,21.77-4.83,43.27-10.91,64.35-18.21,15.29-5.3,31.37-11.78,42.4-24.15,10.51-11.78,12.04-27.35,2.98-40.55s-23.29-21.43-38.06-25.45c-29.26-7.96-64.2.75-83.32,25.13-9.04,11.52-15.24,30.05-4.22,42.4,5.67,6.35,14.32,9.02,22.22,11.37,10.73,3.19,21.65,5.74,32.66,7.76,44.26,8.12,89.62,8.17,134.47,8.61,95.47.93,190.96-1.03,286.42-2.24,95.53-1.22,191.06-2.44,286.59-3.65,11.56-.15,23.12-.29,34.68-.44,1.93-.02,1.93-3.02,0-3-89.75,1.14-179.5,2.29-269.25,3.43-89.71,1.14-179.43,2.74-269.15,3.08-44.02.17-88.13.35-132.12-1.48-21.44-.9-42.88-2.54-64.07-6.01-10.76-1.77-21.44-4-31.97-6.82-8.87-2.38-19.36-4.57-26.44-10.81-15.28-13.46-2.83-36.22,8.92-47.25s25.96-16.95,41.13-19.11c15.43-2.2,31.71-.06,45.73,6.86s31.24,21.76,28.76,39.78c-2.2,15.95-18.02,26.29-31.35,32.67-17.95,8.59-37.98,13.93-57.14,19.08-41.3,11.09-83.81,17.62-126.53,19.41-10.29.43-20.58.57-30.87.46-1.93-.02-1.93,2.98,0,3h0Z"
+          fill="none" stroke="none"/>
+          <image href="assets/img/car.svg" width="100px" height="110px">
+          <animateMotion repeatCount="indefinite" dur="6s" keyPoints="0;1" keyTimes="0;1">
+            <mpath href="#myPath" />
+          </animateMotion>
+          </image>
+        </g>
+      </svg>
     
-    <div class="background__lightblue--path">
-      <div class="postertext">
-        <p><span>74</span> turer til månen og tilbake</p>
-      </div>
-      <img class="car" src="assets/Car.svg" alt="">
-      <img class="greencloud__small--1"src="assets/GreenCloud.svg" alt="">
-      <img class="greencloud__small--2"src="assets/GreenCloud.svg" alt="">
-      <img class="greencloud__small--3"src="assets/GreenCloud.svg" alt="">
-      <img class="greencloud__small--4"src="assets/GreenCloud.svg" alt="">
-
-      <div class="background__lightblue--path1"></div> 
-      <img class="greencloud__small--6"src="assets/GreenCloud.svg" alt="">
-      <img class="greencloud__big"src="assets/GreenCloud.svg" alt="">
-    </div>
-  
-    <div class="background__red--path">
-      <div class="postertext__h2">
-        <h2>Hva kan du gjøre?</h2>
-      </div>
-      <div class="postertext__earth1">
-        <p>Unngå å bytte ut <br> telefonen fin ofte <br> (det fører til mye <br> e-avfall)</p>
-      </div>
-      <div class="postertext__earth2">
-        <p>Koble fra strømmen <br> når du ikke bruker <br> enhetene <br> dine</p>
-      </div>
-      <div class="postertext__earth3">
-        <p>Reduser <br>skjermtiden <br>din og bruk <br>heller mer <br>tid ute.<br> (les en <br>bok, gå <br>ut og <br>lek,<br> gå en tur)</p>
-      </div>
-      <div class="postertext__earth4">
-        <p>Reduser<br> lysstyrken<br> på skjermen din</p>
-      </div>
-      <div class="postertext__earth5">
-        <p>Slett unna <br>e-poter du <br>ikke trenger</p>
-
-      </div>        
-      <img class="greencloud__small--5"src="assets/GreenCloud.svg" alt="">
-      <img class="greencloud__small--7"src="assets/GreenCloud.svg" alt="">
-      <img class="greencloud__small--8"src="assets/GreenCloud.svg" alt="">
-      <div class="persons">
-        <img class="personone"src="assets/PersonOne.svg" alt="">
-        <img class="persontwo"src="assets/PersonTwo.svg" alt="">
-        <img class="persontree"src="assets/PersonThree.svg" alt="">
-      </div>
+    <!--The "earth text"-->
+      <p class="earthText" id="left">Unngå å bytte ut telefonen din ofte (det fører til mye e-avfall)</p>
+      <p class="earthText" id="middle">Koble fra strømmen når du ikke bruker enhetene dine</p>
+    <h2 id="heading">Hva kan du gjøre?</h2>
+      <p class="earthText" id="middle-bottom">Slett unna e-poster du ikke trenger</p>
+      <p class="earthText" id="rigth-top">Reduser skjermtiden din og bruk heller mer tid ute. (les en bok, gå ut og
+      lek, gå en tur)</p>
+      <p class="earthText" id="rigth-bottom">Reduser lysstyrken på skjermen din</p>
+      
+    <!--The earths eyes that are CSS drawings-->
+    <div id="earthEyeLeft"></div>
+    <div id="earthEyeRight"></div>
 
 
-   
-      <div class="poster__background--earth">
-        <svg id="earth" width="2000" heigth="1000" viewbox="0 0 1300 1000">
-          <circle class="earth__background--blue" cx="500" cy="900" r="700"/>
-          <ellipse class="earth__background--eye" cx="220" cy="590" rx="70" ry="100"/>
-          <ellipse class="earth__background--eye" cx="620" cy="590" rx="70" ry="100"/>
-          <ellipse class="earth__background--whiteeye" cx="650" cy="550" rx="10" ry="30" style="fill:white"/>
-          <ellipse class="earth__background--whiteeye" cx="250" cy="550" rx="10" ry="30" style="fill:white"/>
-        </svg>
+  <!--The white and blue footer-->
+  <!--The white container information-->
+      <div id="whiteFooterInfo">
+        <p>TIKTOK 2.63 gco2e/minutt https://www.comparethemarket.com.au/energy/features/social-carbon-footprint-calculator/ 
+            • Vi forutsetter at å kjøre en bil 1.6km (1 mile) genererer 404g CO2
+            En tur til månen: 96.5T CO2 (tur/retur: 193T CO2)1.1 aktive brukere på TIKTOK i 5 min/dag = 148 til månen, eller  74 turer tur/retur. 
+            • Avstand Jorden–månen: 384399.861 km</p>
       </div>
-    <img src="" alt="QR code">
-  </div>
-  
-  <div class="postertext__list">
-      <p>TIKTOK 2.63 gco2e/minutt <a href="https://comparethemarket.com.av/energy/features/social-carbon-footprint-calculator/">https://comparethemarket.com.av/energy/features/social-carbon-footprint-calculator/</a></p>
-      <p class="poster__list--2">Vi forutsetter at å kjøre en bil 1.6km (1mile) genererer 404g CO2</p>
-      <p>En tur til månen: 96.5T CO2 (tur/retur: 193T CO2)1.1 aktive brukere på TIKTOK i 5 min/dag = 148 til månen, eller 74 turer tur/retur</p>
-      <p class="poster__list--4">Avstand Jorden-månen: 384399.861km</p>
-  </div>
-  <div class="postertext__footer">
-    <img src="assets/Institutt for design - hvit - bredde.png" alt="NTNU Logo">
-    <p class="postertext__footer--link">Last ned plakat: <br>
-      <a href="https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner">https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner</a></p>
-    <p class="postertext__footer--mail">Kontakt: <a href="mailto:carlos.vicient@ntnu.no">carlos.vicient@ntnu.no</a></p>
-  </div>
-</main>
+
+  <!--The blue container information-->
+      <div id="info">
+        <img id="logo" src="assets/img/ntnu-logo.svg" alt="NTNU logo">
+        <div class="info_poster">
+          <p>Last ned plakat:</p>
+          <a href="https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner">https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner</a>
+        </div>
+        <p>Kontakt: carlos.vicient@ntnu.no</p>
+      </div>
+</div>
 </body>
 </html>
